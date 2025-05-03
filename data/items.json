@@ -1,779 +1,890 @@
 [
     {
-        "name": "Circuit Board",
-        "value": 10,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/circuit-board.png",
-        "description": "A worn but still-functional circuit board found in old vending machines."
+      "name": "Circuit Board",
+      "value": 10,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/circuit-board.png",
+      "description": "A worn but still-functional circuit board found in old vending machines.",
+      "emoji": "\ud83d\udcdf"
+    },
+    {
+      "name": "Neon Sign",
+      "value": 20,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/neon-sign.png",
+      "description": "A brightly lit neon sign. It attracts nearby Critters.",
+      "emoji": "\ud83d\udce6"
+    },
+    {
+      "name": "Synthetic Fur",
+      "value": 12,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/synthetic-fur.png",
+      "description": "A clump of artificial fur once used in plush market mascots.",
+      "emoji": "\ud83e\udeb6"
+    },
+    {
+      "name": "Memory Chip",
+      "value": 25,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/security-chip.png",
+      "description": "An encrypted chip once used in city surveillance drones. Still retains partial memory.",
+      "emoji": "\ud83d\udcdf"
+    },
+    {
+      "name": "Data Crumb",
+      "value": 8,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/data-crumb.png",
+      "description": "A fragmented byte of corrupted code. Often used in underworld data mining.",
+      "emoji": "\ud83d\udce6"
+    },
+    {
+      "name": "Plastic Filament",
+      "value": 5,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/plastic-filament.png",
+      "description": "Cheap, mass-produced 3D printer filament \u2014 now repurposed for Critter gear.",
+      "emoji": "\ud83e\ude9b"
+    },
+    {
+      "name": "Drone Rotor",
+      "value": 18,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/drone-rotor.png",
+      "description": "The lightweight rotor of a service drone. Spins on residual magnetism.",
+      "emoji": "\ud83d\udce6"
+    },
+    {
+      "name": "Ad Token",
+      "value": 14,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/ad-token.png",
+      "description": "A coin-shaped microchip from pre-collapse digital marketplaces. Still displays popups.",
+      "emoji": "\ud83c\udf9f\ufe0f"
+    },
+    {
+      "name": "Urban Moss",
+      "value": 6,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/urban-moss.png",
+      "description": "Bio-luminescent moss that grows in neon-lit alleyways. Common and relatively useful.",
+      "emoji": "\ud83c\udf43"
+    },
+    {
+      "name": "Broken Stylus",
+      "value": 9,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/broken-stylus.png",
+      "description": "Used for touchscreens that haven't worked in years. Mostly intact.",
+      "emoji": "\ud83d\udce6"
+    },
+    {
+      "name": "Smashed Lens",
+      "value": 11,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/smashed-lens.png",
+      "description": "The fractured lens of an old street surveillance camera.",
+      "emoji": "\ud83d\udd0d"
+    },
+    {
+      "name": "Graffiti Chip",
+      "value": 13,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/graffiti-chip.png",
+      "description": "Encodes visual tags and street murals. Used by rogue Critters to mark territory.",
+      "emoji": "\ud83d\udcdf"
+    },
+    {
+      "name": "Rusty Cog",
+      "value": 9,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/rusty-cog.png",
+      "description": "Once part of an elevator mechanism. Grinds when turned, but still useful in urban crafting.",
+      "emoji": "\u2699\ufe0f"
     },
     {
-        "name": "Neon Sign",
-        "value": 20,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/neon-sign.png",
-        "description": "A brightly lit neon sign. It attracts nearby Critters."
+      "name": "Cracked Visor",
+      "value": 14,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/cracked-visor.png",
+      "description": "A shattered AR visor from a video game console. Flickers with glitched overlays.",
+      "emoji": "\ud83d\udd0d"
     },
     {
-        "name": "Synthetic Fur",
-        "value": 12,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/synthetic-fur.png",
-        "description": "A clump of artificial fur once used in plush market mascots."
+      "name": "Spool of Wire",
+      "value": 7,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/spool-of-wire.png",
+      "description": "Loose but functional wiring often scavenged from utility poles and old kiosks.",
+      "emoji": "\ud83e\ude9b"
     },
     {
-        "name": "Memory Chip",
-        "value": 25,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/security-chip.png",
-        "description": "An encrypted chip once used in city surveillance drones. Still retains partial memory."
+      "name": "LED Fragment",
+      "value": 6,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/led-fragment.png",
+      "description": "A jagged piece of LED signage. Still emits a low pulsing glow in certain conditions.",
+      "emoji": "\ud83d\udce6"
     },
     {
-        "name": "Data Crumb",
-        "value": 8,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/data-crumb.png",
-        "description": "A fragmented byte of corrupted code. Often used in underworld data mining."
+      "name": "Parking Stub",
+      "value": 5,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/parking-stub.png",
+      "description": "An ancient relic of pre-collapse infrastructure. Some machines still accept it as currency.",
+      "emoji": "\ud83c\udf9f\ufe0f"
     },
     {
-        "name": "Plastic Filament",
-        "value": 5,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/plastic-filament.png",
-        "description": "Cheap, mass-produced 3D printer filament — now repurposed for Critter gear."
+      "name": "Plastic Canister",
+      "value": 8,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/plastic-canister.png",
+      "description": "A lightweight container used in food delivery drones. Can store liquids such as crafting solvents or fuel.",
+      "emoji": "\ud83e\uddeb"
     },
     {
-        "name": "Drone Rotor",
-        "value": 18,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/drone-rotor.png",
-        "description": "The lightweight rotor of a service drone. Spins on residual magnetism."
+      "name": "Transit Token",
+      "value": 12,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/transit-token.png",
+      "description": "Prepaid chip used to access defunct metro systems. Holds a faint charge of magnetic energy.",
+      "emoji": "\ud83c\udf9f\ufe0f"
     },
     {
-        "name": "Ad Token",
-        "value": 14,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/ad-token.png",
-        "description": "A coin-shaped microchip from pre-collapse digital marketplaces. Still displays popups."
+      "name": "Access Keycard",
+      "value": 10,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/keycard.png",
+      "description": "Magnetic ID from a locked-down sector. Could be useful for bypassing digital locks.",
+      "emoji": "\ud83c\udf9f\ufe0f"
     },
     {
-        "name": "Urban Moss",
-        "value": 6,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/urban-moss.png",
-        "description": "Bio-luminescent moss that grows in neon-lit alleyways. Common and relatively useful."
+      "name": "Fiber Plate",
+      "value": 11,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/fiber-plate.png",
+      "description": "A cracked composite plate once used for public infrastructure shielding. Surprisingly durable.",
+      "emoji": "\ud83d\udce6"
     },
     {
-        "name": "Broken Stylus",
-        "value": 9,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/broken-stylus.png",
-        "description": "Used for touchscreens that haven't worked in years. Mostly intact."
+      "name": "LED Filament",
+      "value": 7,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/led-filament.png",
+      "description": "A soft-glow light coil salvaged from old lamps. Still flickers when agitated with electricity.",
+      "emoji": "\ud83e\ude9b"
     },
     {
-        "name": "Smashed Lens",
-        "value": 11,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/smashed-lens.png",
-        "description": "The fractured lens of an old street surveillance camera."
+      "name": "Car Tire",
+      "value": 6,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/car-tire.png",
+      "description": "A worn tire from a long-abandoned vehicle. It still holds air.",
+      "emoji": "\ud83d\udce6"
     },
     {
-        "name": "Graffiti Chip",
-        "value": 13,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/graffiti-chip.png",
-        "description": "Encodes visual tags and street murals. Used by rogue Critters to mark territory."
+      "name": "Power Relay",
+      "value": 13,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/power-relay.png",
+      "description": "Used to distribute energy in high-rise buildings. May still carry a charge.",
+      "emoji": "\ud83d\udce6"
     },
     {
-        "name": "Rusty Cog",
-        "value": 9,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/rusty-cog.png",
-        "description": "Once part of an elevator mechanism. Grinds when turned, but still useful in urban crafting."
+      "name": "Cracked Lens",
+      "value": 10,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/cracked-lens.png",
+      "description": "A lens from an old surveillance bot. Still records, but warps visuals unpredictably.",
+      "emoji": "\ud83d\udd0d"
     },
     {
-        "name": "Cracked Visor",
-        "value": 14,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/cracked-visor.png",
-        "description": "A shattered AR visor from a video game console. Flickers with glitched overlays."
+      "name": "Red Concrete Brick",
+      "value": 9,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/echo-brick.png",
+      "description": "A solid piece of concrete from a collapsed building. Useful for crafting and fortifying.",
+      "emoji": "\ud83e\udea8"
     },
     {
-        "name": "Spool of Wire",
-        "value": 7,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/spool-of-wire.png",
-        "description": "Loose but functional wiring often scavenged from utility poles and old kiosks."
+      "name": "Synthetic Oil",
+      "value": 12,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/synthetic-oil.png",
+      "description": "Thick lubricant used in old city machinery. Smells faintly of burnt circuits.",
+      "emoji": "\ud83d\udee2\ufe0f"
     },
     {
-        "name": "LED Fragment",
-        "value": 6,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/led-fragment.png",
-        "description": "A jagged piece of LED signage. Still emits a low pulsing glow in certain conditions."
+      "name": "Recycled Glass",
+      "value": 6,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/recycled-glass.png",
+      "description": "Shimmering fragments melted together from old skyscraper windows.",
+      "emoji": "\ud83d\udd0d"
     },
     {
-        "name": "Parking Stub",
-        "value": 5,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/parking-stub.png",
-        "description": "An ancient relic of pre-collapse infrastructure. Some machines still accept it as currency."
+      "name": "Battery Core",
+      "value": 8,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/battery-core.png",
+      "description": "An empty shell of a city power cell. It is useless on its own, but can be repurposed.",
+      "emoji": "\ud83d\udd0b"
     },
     {
-        "name": "Plastic Canister",
-        "value": 8,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/plastic-canister.png",
-        "description": "A lightweight container used in food delivery drones. Can store liquids such as crafting solvents or fuel."
+      "name": "Phone Charger",
+      "value": 14,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/static-conduit.png",
+      "description": "A charger from a long-dead smartphone. Still holds a faint charge.",
+      "emoji": "\ud83d\udce6"
     },
     {
-        "name": "Transit Token",
-        "value": 12,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/transit-token.png",
-        "description": "Prepaid chip used to access defunct metro systems. Holds a faint charge of magnetic energy."
+      "name": "Metal Bolt",
+      "value": 6,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/steel-bolt.png",
+      "description": "A solid fastener from old city structures. Rust-resistant and perfect for reinforcing gear.",
+      "emoji": "\ud83d\udd29"
     },
     {
-        "name": "Access Keycard",
-        "value": 10,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/keycard.png",
-        "description": "Magnetic ID from a locked-down sector. Could be useful for bypassing digital locks."
+      "name": "Audio Recorder",
+      "value": 15,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/echo-recorder.png",
+      "description": "A handheld device that captures ambient sounds. Some recordings contain ghostly murmurs.",
+      "emoji": "\ud83d\udcc0"
     },
     {
-        "name": "Fiber Plate",
-        "value": 11,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/fiber-plate.png",
-        "description": "A cracked composite plate once used for public infrastructure shielding. Surprisingly durable."
+      "name": "Metal Coil",
+      "value": 13,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/static-coil.png",
+      "description": "A humming coil that absorbs static electricity. Useful for powering low-tier machinery.",
+      "emoji": "\ud83e\uddf2"
     },
     {
-        "name": "LED Filament",
-        "value": 7,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/led-filament.png",
-        "description": "A soft-glow light coil salvaged from old lamps. Still flickers when agitated with electricity."
+      "name": "Bent Antenna",
+      "value": 9,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/bent-antenna.png",
+      "description": "A twisted communication antenna. Can sometimes still catch old emergency signals.",
+      "emoji": "\ud83d\udce1"
     },
     {
-        "name": "Car Tire",
-        "value": 6,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/car-tire.png",
-        "description": "A worn tire from a long-abandoned vehicle. It still holds air."
+      "name": "Plastic Bottle",
+      "value": 5,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/plastic-shard.png",
+      "description": "A common plastic shard from a broken bottle. Can be melted down for crafting.",
+      "emoji": "\ud83e\uddeb"
     },
     {
-        "name": "Power Relay",
-        "value": 13,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/power-relay.png",
-        "description": "Used to distribute energy in high-rise buildings. May still carry a charge."
+      "name": "Cable Bundle",
+      "value": 11,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/cable-bundle.png",
+      "description": "A tangled mess of communication cables. Needed for certain advanced Critter accessories.",
+      "emoji": "\ud83e\ude9b"
     },
     {
-        "name": "Cracked Lens",
-        "value": 10,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/cracked-lens.png",
-        "description": "A lens from an old surveillance bot. Still records, but warps visuals unpredictably."
+      "name": "Broken Monitor",
+      "value": 12,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/broken-monitor.png",
+      "description": "A cracked display screen from a storefront. May contain hidden circuit boards inside.",
+      "emoji": "\ud83d\udda5\ufe0f"
     },
     {
-        "name": "Red Concrete Brick",
-        "value": 9,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/echo-brick.png",
-        "description": "A solid piece of concrete from a collapsed building. Useful for crafting and fortifying."
+      "name": "Flare Gun",
+      "value": 14,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/flare-casing.png",
+      "description": "A flare gun used for emergency signals. Still contains a small amount of flammable gas.",
+      "emoji": "\ud83d\udea8"
     },
     {
-        "name": "Synthetic Oil",
-        "value": 12,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/synthetic-oil.png",
-        "description": "Thick lubricant used in old city machinery. Smells faintly of burnt circuits."
+      "name": "Compass",
+      "value": 16,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/digital-compass.png",
+      "description": "A battered but semi-functional compass pointing to cardinal directions.",
+      "emoji": "\ud83e\udded"
     },
     {
-        "name": "Recycled Glass",
-        "value": 6,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/recycled-glass.png",
-        "description": "Shimmering fragments melted together from old skyscraper windows."
+      "name": "Nano Casing",
+      "value": 17,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/nano-casing.png",
+      "description": "A lightweight casing used in drones. Can be repurposed for Critter armor.",
+      "emoji": "\ud83d\udce6"
     },
     {
-        "name": "Battery Core",
-        "value": 8,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/battery-core.png",
-        "description": "An empty shell of a city power cell. It is useless on its own, but can be repurposed."
+      "name": "Energy Cell",
+      "value": 18,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/energy-cell.png",
+      "description": "A depleted energy cell from a utility drone. Can be recharged for limited use.",
+      "emoji": "\ud83d\udd0b"
     },
     {
-        "name": "Phone Charger",
-        "value": 14,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/static-conduit.png",
-        "description": "A charger from a long-dead smartphone. Still holds a faint charge."
+      "name": "Rusty Spring",
+      "value": 7,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/rusty-spring.png",
+      "description": "A corroded spring salvaged from old machinery. Still has some tension left.",
+      "emoji": "\ud83e\uddf2"
     },
     {
-        "name": "Metal Bolt",
-        "value": 6,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/steel-bolt.png",
-        "description": "A solid fastener from old city structures. Rust-resistant and perfect for reinforcing gear."
+      "name": "Neon Tube",
+      "value": 10,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/neon-tube.png",
+      "description": "A glowing tube from a broken neon sign. Emits a faint hum when touched.",
+      "emoji": "\ud83d\udce6"
     },
     {
-        "name": "Audio Recorder",
-        "value": 15,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/echo-recorder.png",
-        "description": "A handheld device that captures ambient sounds. Some recordings contain ghostly murmurs."
+      "name": "Circuit Fuse",
+      "value": 8,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/circuit-fuse.png",
+      "description": "A small fuse used in electrical panels. Can be repurposed for Critter gadgets.",
+      "emoji": "\ud83d\udcdf"
     },
     {
-        "name": "Metal Coil",
-        "value": 13,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/static-coil.png",
-        "description": "A humming coil that absorbs static electricity. Useful for powering low-tier machinery."
+      "name": "Broken Gear",
+      "value": 9,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/broken-gear.png",
+      "description": "A chipped gear from an industrial machine. Still rotates under pressure.",
+      "emoji": "\u2699\ufe0f"
     },
     {
-        "name": "Bent Antenna",
-        "value": 9,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/bent-antenna.png",
-        "description": "A twisted communication antenna. Can sometimes still catch old emergency signals."
+      "name": "Glass Shard",
+      "value": 5,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/glass-shard.png",
+      "description": "A sharp fragment of glass. Often used in crafting or as a makeshift tool.",
+      "emoji": "\ud83e\udea8"
     },
     {
-        "name": "Plastic Bottle",
-        "value": 5,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/plastic-shard.png",
-        "description": "A common plastic shard from a broken bottle. Can be melted down for crafting."
+      "name": "Metal Scrap",
+      "value": 6,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/metal-scrap.png",
+      "description": "A jagged piece of metal from a collapsed structure. Useful for repurposing and crafting.",
+      "emoji": "\ud83d\udd29"
     },
     {
-        "name": "Cable Bundle",
-        "value": 11,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/cable-bundle.png",
-        "description": "A tangled mess of communication cables. Needed for certain advanced Critter accessories."
+      "name": "Old Battery",
+      "value": 10,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/old-battery.png",
+      "description": "A corroded battery that still holds a charge. Can power small devices.",
+      "emoji": "\ud83d\udd0b"
     },
     {
-        "name": "Broken Monitor",
-        "value": 12,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/broken-monitor.png",
-        "description": "A cracked display screen from a storefront. May contain hidden circuit boards inside."
+      "name": "Plastic Shard",
+      "value": 4,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/plastic-shard.png",
+      "description": "A small piece of broken plastic. Commonly found in urban ruins.",
+      "emoji": "\ud83e\udea8"
     },
     {
-        "name": "Flare Gun",
-        "value": 14,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/flare-casing.png",
-        "description": "A flare gun used for emergency signals. Still contains a small amount of flammable gas."
+      "name": "Magnet",
+      "value": 11,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/worn-magnet.png",
+      "description": "A magnet salvaged from an old speaker. Still retains some magnetic force.",
+      "emoji": "\ud83d\udce6"
     },
     {
-        "name": "Compass",
-        "value": 16,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/digital-compass.png",
-        "description": "A battered but semi-functional compass pointing to cardinal directions."
+      "name": "Holo Disk",
+      "value": 15,
+      "biome": "City",
+      "img": "https://yourdomain.com/items/holo-disk.png",
+      "description": "A damaged holographic storage disk. Contains fragments of lost data.",
+      "emoji": "\ud83d\udcc0"
     },
     {
-        "name": "Nano Casing",
-        "value": 17,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/nano-casing.png",
-        "description": "A lightweight casing used in drones. Can be repurposed for Critter armor."
+      "name": "Mossy Stone",
+      "value": 6,
+      "biome": "Forest",
+      "img": "https://yourdomain.com/items/mossy-stone.png",
+      "description": "A smooth river stone covered in vibrant moss. Radiates a faint warmth.",
+      "emoji": "\ud83c\udf43"
     },
     {
-        "name": "Energy Cell",
-        "value": 18,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/energy-cell.png",
-        "description": "A depleted energy cell from a utility drone. Can be recharged for limited use."
+      "name": "Twilight Sap",
+      "value": 15,
+      "biome": "Forest",
+      "img": "https://yourdomain.com/items/twilight-sap.png",
+      "description": "Collected from ancient trees. Glows faintly under moonlight and smells of forgotten woods.",
+      "emoji": "\ud83d\udce6"
     },
     {
-        "name": "Rusty Spring",
-        "value": 7,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/rusty-spring.png",
-        "description": "A corroded spring salvaged from old machinery. Still has some tension left."
+      "name": "Feather Cluster",
+      "value": 8,
+      "biome": "Forest",
+      "img": "https://yourdomain.com/items/feather-cluster.png",
+      "description": "A tangle of colorful bird feathers. Occasionally twitches with latent wind energy.",
+      "emoji": "\ud83e\udeb6"
     },
     {
-        "name": "Neon Tube",
-        "value": 10,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/neon-tube.png",
-        "description": "A glowing tube from a broken neon sign. Emits a faint hum when touched."
+      "name": "Bark Shard",
+      "value": 5,
+      "biome": "Forest",
+      "img": "https://yourdomain.com/items/bark-shard.png",
+      "description": "Tough fragment of bark from a giant old-growth tree. Resistant to decay.",
+      "emoji": "\ud83e\udea8"
     },
     {
-        "name": "Circuit Fuse",
-        "value": 8,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/circuit-fuse.png",
-        "description": "A small fuse used in electrical panels. Can be repurposed for Critter gadgets."
+      "name": "Lumina Flower",
+      "value": 18,
+      "biome": "Forest",
+      "img": "https://yourdomain.com/items/lumina-flower.png",
+      "description": "A radiant flower that only blooms during electric storms. Highly sought after for rituals.",
+      "emoji": "\ud83c\udf38"
     },
     {
-        "name": "Broken Gear",
-        "value": 9,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/broken-gear.png",
-        "description": "A chipped gear from an industrial machine. Still rotates under pressure."
+      "name": "Thorn Vine",
+      "value": 7,
+      "biome": "Forest",
+      "img": "https://yourdomain.com/items/thorn-vine.png",
+      "description": "A twisting vine lined with razor-sharp thorns. Can be woven into resilient armor.",
+      "emoji": "\ud83c\udf43"
     },
     {
-        "name": "Glass Shard",
-        "value": 5,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/glass-shard.png",
-        "description": "A sharp fragment of glass. Often used in crafting or as a makeshift tool."
+      "name": "Root Fragment",
+      "value": 6,
+      "biome": "Forest",
+      "img": "https://yourdomain.com/items/root-fragment.png",
+      "description": "Piece of an underground root system. Still pulses faintly with old earth energy.",
+      "emoji": "\ud83c\udf3f"
     },
     {
-        "name": "Metal Scrap",
-        "value": 6,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/metal-scrap.png",
-        "description": "A jagged piece of metal from a collapsed structure. Useful for repurposing and crafting."
+      "name": "Pollen Dust",
+      "value": 9,
+      "biome": "Forest",
+      "img": "https://yourdomain.com/items/pollen-dust.png",
+      "description": "Fine golden dust from rare forest flowers. Sparks faint electrical surges when gathered.",
+      "emoji": "\ud83c\udf2b\ufe0f"
     },
     {
-        "name": "Old Battery",
-        "value": 10,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/old-battery.png",
-        "description": "A corroded battery that still holds a charge. Can power small devices."
+      "name": "Hollow Acorn",
+      "value": 10,
+      "biome": "Forest",
+      "img": "https://yourdomain.com/items/hollow-acorn.png",
+      "description": "A strange acorn that rattles mysteriously when shaken.",
+      "emoji": "\ud83c\udf30"
     },
     {
-        "name": "Plastic Shard",
-        "value": 4,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/plastic-shard.png",
-        "description": "A small piece of broken plastic. Commonly found in urban ruins."
+      "name": "Wild Resin",
+      "value": 12,
+      "biome": "Forest",
+      "img": "https://yourdomain.com/items/wild-resin.png",
+      "description": "Sticky, strong, and resistant to corruption. Used by forest Critters to patch their shells.",
+      "emoji": "\ud83e\uddf4"
     },
     {
-        "name": "Magnet",
-        "value": 11,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/worn-magnet.png",
-        "description": "A magnet salvaged from an old speaker. Still retains some magnetic force."
+      "name": "Spirit Leaf",
+      "value": 14,
+      "biome": "Forest",
+      "img": "https://yourdomain.com/items/spirit-leaf.png",
+      "description": "A shimmering leaf rumored to be blessed by the spirits of the deep woods.",
+      "emoji": "\ud83c\udf43"
     },
     {
-        "name": "Holo Disk",
-        "value": 15,
-        "biome": "City",
-        "img": "https://yourdomain.com/items/holo-disk.png",
-        "description": "A damaged holographic storage disk. Contains fragments of lost data."
+      "name": "Snapped Twig",
+      "value": 4,
+      "biome": "Forest",
+      "img": "https://yourdomain.com/items/snapped-twig.png",
+      "description": "A simple broken twig \u2014 but some carry traces of powerful latent magic.",
+      "emoji": "\ud83c\udf3f"
     },
     {
-        "name": "Mossy Stone",
-        "value": 6,
-        "biome": "Forest",
-        "img": "https://yourdomain.com/items/mossy-stone.png",
-        "description": "A smooth river stone covered in vibrant moss. Radiates a faint warmth."
+      "name": "Amber Core",
+      "value": 16,
+      "biome": "Forest",
+      "img": "https://yourdomain.com/items/amber-core.png",
+      "description": "A chunk of crystallized tree sap containing ancient bugs and locked memories.",
+      "emoji": "\ud83d\udce6"
     },
     {
-        "name": "Twilight Sap",
-        "value": 15,
-        "biome": "Forest",
-        "img": "https://yourdomain.com/items/twilight-sap.png",
-        "description": "Collected from ancient trees. Glows faintly under moonlight and smells of forgotten woods."
+      "name": "Fungal Cap",
+      "value": 8,
+      "biome": "Forest",
+      "img": "https://yourdomain.com/items/fungal-cap.png",
+      "description": "Part of a massive mushroom colony. Used for crafting organic tech interfaces.",
+      "emoji": "\ud83c\udf44"
     },
     {
-        "name": "Feather Cluster",
-        "value": 8,
-        "biome": "Forest",
-        "img": "https://yourdomain.com/items/feather-cluster.png",
-        "description": "A tangle of colorful bird feathers. Occasionally twitches with latent wind energy."
+      "name": "Forest Ember",
+      "value": 17,
+      "biome": "Forest",
+      "img": "https://yourdomain.com/items/forest-ember.png",
+      "description": "A coal fragment from a long-dead wildfire, now infused with dormant wildfire spirits.",
+      "emoji": "\ud83d\udce6"
     },
     {
-        "name": "Bark Shard",
-        "value": 5,
-        "biome": "Forest",
-        "img": "https://yourdomain.com/items/bark-shard.png",
-        "description": "Tough fragment of bark from a giant old-growth tree. Resistant to decay."
+      "name": "Shimmer Bark",
+      "value": 13,
+      "biome": "Forest",
+      "img": "https://yourdomain.com/items/shimmer-bark.png",
+      "description": "Reflective bark that glows softly at night. Used for cloaking technology.",
+      "emoji": "\ud83c\udf38"
     },
     {
-        "name": "Lumina Flower",
-        "value": 18,
-        "biome": "Forest",
-        "img": "https://yourdomain.com/items/lumina-flower.png",
-        "description": "A radiant flower that only blooms during electric storms. Highly sought after for rituals."
+      "name": "Spiritseed",
+      "value": 19,
+      "biome": "Forest",
+      "img": "https://yourdomain.com/items/spiritseed.png",
+      "description": "A living seed rumored to contain an entire micro-forest ecosystem inside.",
+      "emoji": "\ud83c\udf30"
     },
     {
-        "name": "Thorn Vine",
-        "value": 7,
-        "biome": "Forest",
-        "img": "https://yourdomain.com/items/thorn-vine.png",
-        "description": "A twisting vine lined with razor-sharp thorns. Can be woven into resilient armor."
+      "name": "Mist Frond",
+      "value": 12,
+      "biome": "Forest",
+      "img": "https://yourdomain.com/items/mist-frond.png",
+      "description": "A rare fern that thrives only in heavy mist. Its leaves drip with naturally charged water droplets.",
+      "emoji": "\ud83d\udce6"
     },
     {
-        "name": "Root Fragment",
-        "value": 6,
-        "biome": "Forest",
-        "img": "https://yourdomain.com/items/root-fragment.png",
-        "description": "Piece of an underground root system. Still pulses faintly with old earth energy."
+      "name": "Burl Nut",
+      "value": 11,
+      "biome": "Forest",
+      "img": "https://yourdomain.com/items/burl-nut.png",
+      "description": "A hard-shelled nut with swirling wood patterns. Breaks open to reveal nutrient-rich fibers.",
+      "emoji": "\ud83c\udf30"
     },
     {
-        "name": "Pollen Dust",
-        "value": 9,
-        "biome": "Forest",
-        "img": "https://yourdomain.com/items/pollen-dust.png",
-        "description": "Fine golden dust from rare forest flowers. Sparks faint electrical surges when gathered."
+      "name": "Vine Creep",
+      "value": 7,
+      "biome": "Forest",
+      "img": "https://yourdomain.com/items/vine-creep.png",
+      "description": "Living strands of fast-growing vine, twitching gently even after harvest.",
+      "emoji": "\ud83c\udf43"
     },
     {
-        "name": "Hollow Acorn",
-        "value": 10,
-        "biome": "Forest",
-        "img": "https://yourdomain.com/items/hollow-acorn.png",
-        "description": "A strange acorn that rattles mysteriously when shaken."
+      "name": "Shardstone",
+      "value": 7,
+      "biome": "Mountain",
+      "img": "https://yourdomain.com/items/shardstone.png",
+      "description": "A jagged piece of mountain crystal, sharp enough to slice thin armor.",
+      "emoji": "\ud83e\udea8"
     },
     {
-        "name": "Wild Resin",
-        "value": 12,
-        "biome": "Forest",
-        "img": "https://yourdomain.com/items/wild-resin.png",
-        "description": "Sticky, strong, and resistant to corruption. Used by forest Critters to patch their shells."
+      "name": "Frost Bloom",
+      "value": 15,
+      "biome": "Mountain",
+      "img": "https://yourdomain.com/items/frost-bloom.png",
+      "description": "A delicate flower that only blooms in freezing temperatures.",
+      "emoji": "\ud83d\udce6"
     },
     {
-        "name": "Spirit Leaf",
-        "value": 14,
-        "biome": "Forest",
-        "img": "https://yourdomain.com/items/spirit-leaf.png",
-        "description": "A shimmering leaf rumored to be blessed by the spirits of the deep woods."
+      "name": "Basalt Core",
+      "value": 10,
+      "biome": "Mountain",
+      "img": "https://yourdomain.com/items/basalt-core.png",
+      "description": "A heavy rock rich with dormant volcanic energy.",
+      "emoji": "\ud83d\udce6"
     },
     {
-        "name": "Snapped Twig",
-        "value": 4,
-        "biome": "Forest",
-        "img": "https://yourdomain.com/items/snapped-twig.png",
-        "description": "A simple broken twig — but some carry traces of powerful latent magic."
+      "name": "Cave Pearl",
+      "value": 18,
+      "biome": "Mountain",
+      "img": "https://yourdomain.com/items/cave-pearl.png",
+      "description": "A smooth mineral sphere formed in dripping caves over centuries.",
+      "emoji": "\ud83d\udce6"
     },
     {
-        "name": "Amber Core",
-        "value": 16,
-        "biome": "Forest",
-        "img": "https://yourdomain.com/items/amber-core.png",
-        "description": "A chunk of crystallized tree sap containing ancient bugs and locked memories."
+      "name": "Slate Fragment",
+      "value": 5,
+      "biome": "Mountain",
+      "img": "https://yourdomain.com/items/slate-fragment.png",
+      "description": "Thin and brittle, slate fragments make excellent lightweight armor plates.",
+      "emoji": "\ud83d\udce6"
     },
     {
-        "name": "Fungal Cap",
-        "value": 8,
-        "biome": "Forest",
-        "img": "https://yourdomain.com/items/fungal-cap.png",
-        "description": "Part of a massive mushroom colony. Used for crafting organic tech interfaces."
+      "name": "Wind-Polished Rock",
+      "value": 6,
+      "biome": "Mountain",
+      "img": "https://yourdomain.com/items/wind-polished-rock.png",
+      "description": "A stone smoothed into aerodynamic perfection by mountain gales.",
+      "emoji": "\ud83e\udea8"
     },
     {
-        "name": "Forest Ember",
-        "value": 17,
-        "biome": "Forest",
-        "img": "https://yourdomain.com/items/forest-ember.png",
-        "description": "A coal fragment from a long-dead wildfire, now infused with dormant wildfire spirits."
+      "name": "Frozen Root",
+      "value": 8,
+      "biome": "Mountain",
+      "img": "https://yourdomain.com/items/frozen-root.png",
+      "description": "Tough, frost-covered roots that survive against impossible odds.",
+      "emoji": "\ud83c\udf3f"
     },
     {
-        "name": "Shimmer Bark",
-        "value": 13,
-        "biome": "Forest",
-        "img": "https://yourdomain.com/items/shimmer-bark.png",
-        "description": "Reflective bark that glows softly at night. Used for cloaking technology."
+      "name": "Snowcap Moss",
+      "value": 9,
+      "biome": "Mountain",
+      "img": "https://yourdomain.com/items/snowcap-moss.png",
+      "description": "Moss that clings to icy cliffs, glowing faintly in moonlight.",
+      "emoji": "\ud83c\udf43"
     },
     {
-        "name": "Spiritseed",
-        "value": 19,
-        "biome": "Forest",
-        "img": "https://yourdomain.com/items/spiritseed.png",
-        "description": "A living seed rumored to contain an entire micro-forest ecosystem inside."
+      "name": "Glacial Dust",
+      "value": 11,
+      "biome": "Mountain",
+      "img": "https://yourdomain.com/items/glacial-dust.png",
+      "description": "Finely ground powder from ancient glaciers, infused with primordial energy.",
+      "emoji": "\ud83c\udf2b\ufe0f"
     },
     {
-        "name": "Mist Frond",
-        "value": 12,
-        "biome": "Forest",
-        "img": "https://yourdomain.com/items/mist-frond.png",
-        "description": "A rare fern that thrives only in heavy mist. Its leaves drip with naturally charged water droplets."
+      "name": "Eagle Feather",
+      "value": 13,
+      "biome": "Mountain",
+      "img": "https://yourdomain.com/items/eagle-feather.png",
+      "description": "A talisman of sharp sight and free winds, plucked from high-soaring eagles.",
+      "emoji": "\ud83e\udeb6"
     },
     {
-        "name": "Burl Nut",
-        "value": 11,
-        "biome": "Forest",
-        "img": "https://yourdomain.com/items/burl-nut.png",
-        "description": "A hard-shelled nut with swirling wood patterns. Breaks open to reveal nutrient-rich fibers."
+      "name": "Thunderstone",
+      "value": 17,
+      "biome": "Mountain",
+      "img": "https://yourdomain.com/items/thunderstone.png",
+      "description": "A rare rock that vibrates with static, rumored to have absorbed lightning strikes.",
+      "emoji": "\ud83e\udea8"
     },
     {
-        "name": "Vine Creep",
-        "value": 7,
-        "biome": "Forest",
-        "img": "https://yourdomain.com/items/vine-creep.png",
-        "description": "Living strands of fast-growing vine, twitching gently even after harvest."
+      "name": "Broken Pickaxe",
+      "value": 6,
+      "biome": "Mountain",
+      "img": "https://yourdomain.com/items/broken-pickaxe.png",
+      "description": "A shattered mining tool, its handle worn smooth by harsh winters.",
+      "emoji": "\ud83d\udee0\ufe0f"
     },
     {
-        "name": "Shardstone",
-        "value": 7,
-        "biome": "Mountain",
-        "img": "https://yourdomain.com/items/shardstone.png",
-        "description": "A jagged piece of mountain crystal, sharp enough to slice thin armor."
+      "name": "Cavern Echo",
+      "value": 16,
+      "biome": "Mountain",
+      "img": "https://yourdomain.com/items/cavern-echo.png",
+      "description": "A mysterious rock that hums softly when touched, mimicking lost sounds.",
+      "emoji": "\ud83d\udce6"
     },
     {
-        "name": "Frost Bloom",
-        "value": 15,
-        "biome": "Mountain",
-        "img": "https://yourdomain.com/items/frost-bloom.png",
-        "description": "A delicate flower that only blooms in freezing temperatures."
+      "name": "Icicle Fang",
+      "value": 14,
+      "biome": "Mountain",
+      "img": "https://yourdomain.com/items/icicle-fang.png",
+      "description": "A long, dagger-like shard of ice, unnaturally durable against heat.",
+      "emoji": "\ud83d\udce6"
     },
     {
-        "name": "Basalt Core",
-        "value": 10,
-        "biome": "Mountain",
-        "img": "https://yourdomain.com/items/basalt-core.png",
-        "description": "A heavy rock rich with dormant volcanic energy."
+      "name": "Granite Core",
+      "value": 8,
+      "biome": "Mountain",
+      "img": "https://yourdomain.com/items/granite-core.png",
+      "description": "Dense, nearly indestructible rock at the heart of collapsed mountain caverns.",
+      "emoji": "\ud83d\udce6"
     },
     {
-        "name": "Cave Pearl",
-        "value": 18,
-        "biome": "Mountain",
-        "img": "https://yourdomain.com/items/cave-pearl.png",
-        "description": "A smooth mineral sphere formed in dripping caves over centuries."
+      "name": "Cloudstone",
+      "value": 12,
+      "biome": "Mountain",
+      "img": "https://yourdomain.com/items/cloudstone.png",
+      "description": "A rare, porous stone that floats for a few moments when thrown.",
+      "emoji": "\ud83e\udea8"
     },
     {
-        "name": "Slate Fragment",
-        "value": 5,
-        "biome": "Mountain",
-        "img": "https://yourdomain.com/items/slate-fragment.png",
-        "description": "Thin and brittle, slate fragments make excellent lightweight armor plates."
+      "name": "Stalactite Chip",
+      "value": 5,
+      "biome": "Mountain",
+      "img": "https://yourdomain.com/items/stalactite-chip.png",
+      "description": "A sharp fragment from a collapsed cave ceiling.",
+      "emoji": "\ud83d\udcdf"
     },
     {
-        "name": "Wind-Polished Rock",
-        "value": 6,
-        "biome": "Mountain",
-        "img": "https://yourdomain.com/items/wind-polished-rock.png",
-        "description": "A stone smoothed into aerodynamic perfection by mountain gales."
+      "name": "Echo Mushroom",
+      "value": 9,
+      "biome": "Mountain",
+      "img": "https://yourdomain.com/items/echo-mushroom.png",
+      "description": "A fungi species that thrives on sound vibrations deep underground.",
+      "emoji": "\ud83c\udf44"
     },
     {
-        "name": "Frozen Root",
-        "value": 8,
-        "biome": "Mountain",
-        "img": "https://yourdomain.com/items/frozen-root.png",
-        "description": "Tough, frost-covered roots that survive against impossible odds."
+      "name": "Whisper Vine",
+      "value": 10,
+      "biome": "Mountain",
+      "img": "https://yourdomain.com/items/whisper-vine.png",
+      "description": "Delicate vines that sway to unseen breezes even in still air.",
+      "emoji": "\ud83c\udf43"
     },
     {
-        "name": "Snowcap Moss",
-        "value": 9,
-        "biome": "Mountain",
-        "img": "https://yourdomain.com/items/snowcap-moss.png",
-        "description": "Moss that clings to icy cliffs, glowing faintly in moonlight."
+      "name": "Bitter Frostleaf",
+      "value": 11,
+      "biome": "Mountain",
+      "img": "https://yourdomain.com/items/bitter-frostleaf.png",
+      "description": "A harsh-tasting herb used by ancient mountaineers to resist freezing winds.",
+      "emoji": "\ud83c\udf43"
     },
     {
-        "name": "Glacial Dust",
-        "value": 11,
-        "biome": "Mountain",
-        "img": "https://yourdomain.com/items/glacial-dust.png",
-        "description": "Finely ground powder from ancient glaciers, infused with primordial energy."
+      "name": "Sun-Scorched Shard",
+      "value": 7,
+      "biome": "Desert",
+      "img": "https://yourdomain.com/items/sun-scorched-shard.png",
+      "description": "A brittle piece of stone superheated by endless sun exposure.",
+      "emoji": "\ud83e\udea8"
     },
     {
-        "name": "Eagle Feather",
-        "value": 13,
-        "biome": "Mountain",
-        "img": "https://yourdomain.com/items/eagle-feather.png",
-        "description": "A talisman of sharp sight and free winds, plucked from high-soaring eagles."
+      "name": "Cactus Spine",
+      "value": 6,
+      "biome": "Desert",
+      "img": "https://yourdomain.com/items/cactus-spine.png",
+      "description": "A long, barbed thorn from a desert giant cactus. Tough and venomous.",
+      "emoji": "\ud83e\udea1"
     },
     {
-        "name": "Thunderstone",
-        "value": 17,
-        "biome": "Mountain",
-        "img": "https://yourdomain.com/items/thunderstone.png",
-        "description": "A rare rock that vibrates with static, rumored to have absorbed lightning strikes."
+      "name": "Dune Pearl",
+      "value": 16,
+      "biome": "Desert",
+      "img": "https://yourdomain.com/items/dune-pearl.png",
+      "description": "Formed under tons of shifting sand, these rare pearls shimmer like stars.",
+      "emoji": "\ud83d\udce6"
     },
     {
-        "name": "Broken Pickaxe",
-        "value": 6,
-        "biome": "Mountain",
-        "img": "https://yourdomain.com/items/broken-pickaxe.png",
-        "description": "A shattered mining tool, its handle worn smooth by harsh winters."
+      "name": "Salt Crystal",
+      "value": 10,
+      "biome": "Desert",
+      "img": "https://yourdomain.com/items/salt-crystal.png",
+      "description": "Harvested from ancient dried lakes, these crystals are dense with energy.",
+      "emoji": "\ud83e\udea8"
     },
     {
-        "name": "Cavern Echo",
-        "value": 16,
-        "biome": "Mountain",
-        "img": "https://yourdomain.com/items/cavern-echo.png",
-        "description": "A mysterious rock that hums softly when touched, mimicking lost sounds."
+      "name": "Scorpid Tail",
+      "value": 9,
+      "biome": "Desert",
+      "img": "https://yourdomain.com/items/scorpid-tail.png",
+      "description": "The venomous tail of a desert scorpion, still twitching slightly after severance.",
+      "emoji": "\ud83d\udce6"
     },
     {
-        "name": "Icicle Fang",
-        "value": 14,
-        "biome": "Mountain",
-        "img": "https://yourdomain.com/items/icicle-fang.png",
-        "description": "A long, dagger-like shard of ice, unnaturally durable against heat."
+      "name": "Wind Glass",
+      "value": 14,
+      "biome": "Desert",
+      "img": "https://yourdomain.com/items/wind-glass.png",
+      "description": "Glass formed naturally from sand by desert lightning storms.",
+      "emoji": "\ud83d\udd0d"
     },
     {
-        "name": "Granite Core",
-        "value": 8,
-        "biome": "Mountain",
-        "img": "https://yourdomain.com/items/granite-core.png",
-        "description": "Dense, nearly indestructible rock at the heart of collapsed mountain caverns."
+      "name": "Drybone Fragment",
+      "value": 8,
+      "biome": "Desert",
+      "img": "https://yourdomain.com/items/drybone-fragment.png",
+      "description": "Brittle bones of long-dead creatures bleached under desert suns.",
+      "emoji": "\ud83d\udce6"
     },
     {
-        "name": "Cloudstone",
-        "value": 12,
-        "biome": "Mountain",
-        "img": "https://yourdomain.com/items/cloudstone.png",
-        "description": "A rare, porous stone that floats for a few moments when thrown."
-    },
-    {
-        "name": "Stalactite Chip",
-        "value": 5,
-        "biome": "Mountain",
-        "img": "https://yourdomain.com/items/stalactite-chip.png",
-        "description": "A sharp fragment from a collapsed cave ceiling."
-    },
-    {
-        "name": "Echo Mushroom",
-        "value": 9,
-        "biome": "Mountain",
-        "img": "https://yourdomain.com/items/echo-mushroom.png",
-        "description": "A fungi species that thrives on sound vibrations deep underground."
-    },
-    {
-        "name": "Whisper Vine",
-        "value": 10,
-        "biome": "Mountain",
-        "img": "https://yourdomain.com/items/whisper-vine.png",
-        "description": "Delicate vines that sway to unseen breezes even in still air."
-    },
-    {
-        "name": "Bitter Frostleaf",
-        "value": 11,
-        "biome": "Mountain",
-        "img": "https://yourdomain.com/items/bitter-frostleaf.png",
-        "description": "A harsh-tasting herb used by ancient mountaineers to resist freezing winds."
-    },
-    {
-        "name": "Sun-Scorched Shard",
-        "value": 7,
-        "biome": "Desert",
-        "img": "https://yourdomain.com/items/sun-scorched-shard.png",
-        "description": "A brittle piece of stone superheated by endless sun exposure."
-    },
-    {
-        "name": "Cactus Spine",
-        "value": 6,
-        "biome": "Desert",
-        "img": "https://yourdomain.com/items/cactus-spine.png",
-        "description": "A long, barbed thorn from a desert giant cactus. Tough and venomous."
-    },
-    {
-        "name": "Dune Pearl",
-        "value": 16,
-        "biome": "Desert",
-        "img": "https://yourdomain.com/items/dune-pearl.png",
-        "description": "Formed under tons of shifting sand, these rare pearls shimmer like stars."
-    },
-    {
-        "name": "Salt Crystal",
-        "value": 10,
-        "biome": "Desert",
-        "img": "https://yourdomain.com/items/salt-crystal.png",
-        "description": "Harvested from ancient dried lakes, these crystals are dense with energy."
-    },
-    {
-        "name": "Scorpid Tail",
-        "value": 9,
-        "biome": "Desert",
-        "img": "https://yourdomain.com/items/scorpid-tail.png",
-        "description": "The venomous tail of a desert scorpion, still twitching slightly after severance."
-    },
-    {
-        "name": "Wind Glass",
-        "value": 14,
-        "biome": "Desert",
-        "img": "https://yourdomain.com/items/wind-glass.png",
-        "description": "Glass formed naturally from sand by desert lightning storms."
-    },
-    {
-        "name": "Drybone Fragment",
-        "value": 8,
-        "biome": "Desert",
-        "img": "https://yourdomain.com/items/drybone-fragment.png",
-        "description": "Brittle bones of long-dead creatures bleached under desert suns."
-    },
-    {
-        "name": "Sundried Husk",
-        "value": 5,
-        "biome": "Desert",
-        "img": "https://yourdomain.com/items/sundried-husk.png",
-        "description": "Hollow remains of desert flora, rattling eerily when carried."
-    },
-    {
-        "name": "Mirage Dust",
-        "value": 12,
-        "biome": "Desert",
-        "img": "https://yourdomain.com/items/mirage-dust.png",
-        "description": "Fine, shimmering dust that bends light and confuses trackers."
-    },
-    {
-        "name": "Tumblevine",
-        "value": 7,
-        "biome": "Desert",
-        "img": "https://yourdomain.com/items/tumblevine.png",
-        "description": "A hardy vine that rolls across deserts on unpredictable winds."
-    },
-    {
-        "name": "Cracked Medallion",
-        "value": 11,
-        "biome": "Desert",
-        "img": "https://yourdomain.com/items/cracked-medallion.png",
-        "description": "An ancient artifact buried under sands, etched with lost runes."
-    },
-    {
-        "name": "Sandstone Brick",
-        "value": 6,
-        "biome": "Desert",
-        "img": "https://yourdomain.com/items/sandstone-brick.png",
-        "description": "A building fragment from a lost desert civilization."
-    },
-    {
-        "name": "Ash Cactus Fruit",
-        "value": 13,
-        "biome": "Desert",
-        "img": "https://yourdomain.com/items/ash-cactus-fruit.png",
-        "description": "A rare edible cactus fruit, blackened by desert fires but nutrient-rich."
-    },
-    {
-        "name": "Scaldroot",
-        "value": 8,
-        "biome": "Desert",
-        "img": "https://yourdomain.com/items/scaldroot.png",
-        "description": "A desert root that radiates intense heat when unearthed."
-    },
-    {
-        "name": "Blisterweed",
-        "value": 9,
-        "biome": "Desert",
-        "img": "https://yourdomain.com/items/blisterweed.png",
-        "description": "A desert herb whose oils can both heal and poison, depending on use."
-    },
-    {
-        "name": "Vulture Feather",
-        "value": 7,
-        "biome": "Desert",
-        "img": "https://yourdomain.com/items/vulture-feather.png",
-        "description": "A scavenger's trophy, said to grant persistence under harsh skies."
-    },
-    {
-        "name": "Sandglass Core",
-        "value": 17,
-        "biome": "Desert",
-        "img": "https://yourdomain.com/items/sandglass-core.png",
-        "description": "The crystallized heart of a collapsed sandstorm, humming with latent power."
-    },
-    {
-        "name": "Obsidian Fang",
-        "value": 15,
-        "biome": "Desert",
-        "img": "https://yourdomain.com/items/obsidian-fang.png",
-        "description": "A razor-sharp volcanic shard, once part of a desert predator's weaponry."
-    },
-    {
-        "name": "Sandsifter Beetle Shell",
-        "value": 10,
-        "biome": "Desert",
-        "img": "https://yourdomain.com/items/sandsifter-beetle-shell.png",
-        "description": "The armored shell of a beetle adapted to burrowing through dunes."
-    },
-    {
-        "name": "Wanderer's Map",
-        "value": 18,
-        "biome": "Desert",
-        "img": "https://yourdomain.com/items/wanderers-map.png",
-        "description": "A timeworn cloth map said to point to a hidden oasis and caches full of riches."
+      "name": "Sundried Husk",
+      "value": 5,
+      "biome": "Desert",
+      "img": "https://yourdomain.com/items/sundried-husk.png",
+      "description": "Hollow remains of desert flora, rattling eerily when carried.",
+      "emoji": "\ud83d\udce6"
+    },
+    {
+      "name": "Mirage Dust",
+      "value": 12,
+      "biome": "Desert",
+      "img": "https://yourdomain.com/items/mirage-dust.png",
+      "description": "Fine, shimmering dust that bends light and confuses trackers.",
+      "emoji": "\ud83c\udf2b\ufe0f"
+    },
+    {
+      "name": "Tumblevine",
+      "value": 7,
+      "biome": "Desert",
+      "img": "https://yourdomain.com/items/tumblevine.png",
+      "description": "A hardy vine that rolls across deserts on unpredictable winds.",
+      "emoji": "\ud83c\udf43"
+    },
+    {
+      "name": "Cracked Medallion",
+      "value": 11,
+      "biome": "Desert",
+      "img": "https://yourdomain.com/items/cracked-medallion.png",
+      "description": "An ancient artifact buried under sands, etched with lost runes.",
+      "emoji": "\ud83c\udfc5"
+    },
+    {
+      "name": "Sandstone Brick",
+      "value": 6,
+      "biome": "Desert",
+      "img": "https://yourdomain.com/items/sandstone-brick.png",
+      "description": "A building fragment from a lost desert civilization.",
+      "emoji": "\ud83e\udea8"
+    },
+    {
+      "name": "Ash Cactus Fruit",
+      "value": 13,
+      "biome": "Desert",
+      "img": "https://yourdomain.com/items/ash-cactus-fruit.png",
+      "description": "A rare edible cactus fruit, blackened by desert fires but nutrient-rich.",
+      "emoji": "\ud83d\udce6"
+    },
+    {
+      "name": "Scaldroot",
+      "value": 8,
+      "biome": "Desert",
+      "img": "https://yourdomain.com/items/scaldroot.png",
+      "description": "A desert root that radiates intense heat when unearthed.",
+      "emoji": "\ud83c\udf3f"
+    },
+    {
+      "name": "Blisterweed",
+      "value": 9,
+      "biome": "Desert",
+      "img": "https://yourdomain.com/items/blisterweed.png",
+      "description": "A desert herb whose oils can both heal and poison, depending on use.",
+      "emoji": "\ud83d\udce6"
+    },
+    {
+      "name": "Vulture Feather",
+      "value": 7,
+      "biome": "Desert",
+      "img": "https://yourdomain.com/items/vulture-feather.png",
+      "description": "A scavenger's trophy, said to grant persistence under harsh skies.",
+      "emoji": "\ud83e\udeb6"
+    },
+    {
+      "name": "Sandglass Core",
+      "value": 17,
+      "biome": "Desert",
+      "img": "https://yourdomain.com/items/sandglass-core.png",
+      "description": "The crystallized heart of a collapsed sandstorm, humming with latent power.",
+      "emoji": "\ud83d\udd0d"
+    },
+    {
+      "name": "Obsidian Fang",
+      "value": 15,
+      "biome": "Desert",
+      "img": "https://yourdomain.com/items/obsidian-fang.png",
+      "description": "A razor-sharp volcanic shard, once part of a desert predator's weaponry.",
+      "emoji": "\ud83d\udce6"
+    },
+    {
+      "name": "Sandsifter Beetle Shell",
+      "value": 10,
+      "biome": "Desert",
+      "img": "https://yourdomain.com/items/sandsifter-beetle-shell.png",
+      "description": "The armored shell of a beetle adapted to burrowing through dunes.",
+      "emoji": "\ud83d\udc1a"
+    },
+    {
+      "name": "Wanderer's Map",
+      "value": 18,
+      "biome": "Desert",
+      "img": "https://yourdomain.com/items/wanderers-map.png",
+      "description": "A timeworn cloth map said to point to a hidden oasis and caches full of riches.",
+      "emoji": "\ud83d\uddfa\ufe0f"
     }
   ]
