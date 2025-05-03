@@ -1,0 +1,56 @@
+[
+    {
+      "critter_name": "Vixitron",
+      "rank": "Proto",
+      "required_items": {
+        "Circuit Board": 1,
+        "Neon Sign": 1,
+        "Memory Chip": 1
+      }
+    },
+    {
+      "critter_name": "Tortulith",
+      "rank": "Proto",
+      "required_items": {
+        "Thorn Vine": 1,
+        "Hollow Acorn": 1,
+        "Spirit Leaf": 1
+      }
+    },
+    {
+      "critter_name": "Patchi",
+      "rank": "Proto",
+      "required_items": {
+        "Data Crumb": 2,
+        "Plastic Filament": 1,
+        "Cable Bundle": 1
+      }
+    },
+    {
+      "critter_name": "Skidrix",
+      "rank": "Proto",
+      "required_items": {
+        "Cracked Lens": 1,
+        "Twilight Sap": 1,
+        "Echo Mushroom": 1
+      }
+    },
+    {
+      "critter_name": "Zapkip",
+      "rank": "Proto",
+      "required_items": {
+        "Metal Coil": 2,
+        "Bent Antenna": 1,
+        "Battery Core": 1
+      }
+    },
+    {
+      "critter_name": "Emberpaw",
+      "rank": "Proto",
+      "required_items": {
+        "Obsidian Fang": 1,
+        "Basalt Core": 2,
+        "Forest Ember": 1
+      }
+    }
+  ]

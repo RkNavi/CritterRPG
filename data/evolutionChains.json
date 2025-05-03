@@ -1,0 +1,252 @@
+[
+    {
+        "base_name": "Brikbit",
+        "forms": [
+            { "rank": "Proto", "name": "Brikbit", "special": null },
+            { "rank": "Starter", "name": "Brikmash", "special": "Concrete Slam" },
+            { "rank": "Intermediate", "name": "Quakenok", "special": "Seismic Stomp" },
+            { "rank": "Apex", "name": "Titanorox", "special": "Titan Smash" },
+            { "rank": "Legendary", "name": "Citadrax", "special": "Citadel Crush" }
+        ]
+    },
+    {
+        "base_name": "Leaflit",
+        "forms": [
+            { "rank": "Proto", "name": "Leaflit", "special": null },
+            { "rank": "Starter", "name": "Leaflume", "special": "Vine Whip" },
+            { "rank": "Intermediate", "name": "Bloomnex", "special": "Thorn Barrage" },
+            { "rank": "Apex", "name": "Selvaterra", "special": "Nature’s Wrath" },
+            { "rank": "Legendary", "name": "Gaialith", "special": "Everdawn Surge" }
+        ]
+    },
+    {
+        "base_name": "Sprox",
+        "forms": [
+            { "rank": "Proto", "name": "Sprox", "special": null },
+            { "rank": "Starter", "name": "Coreclank", "special": "Gear Grind" },
+            { "rank": "Intermediate", "name": "Ironvulk", "special": "Overload Strike" },
+            { "rank": "Apex", "name": "Hexgolem", "special": "Crushing Servo Slam" },
+            { "rank": "Legendary", "name": "Obliviron", "special": "Quantum Blast" }
+        ]
+    },
+    {
+        "base_name": "Embercrit",
+        "forms": [
+            { "rank": "Proto", "name": "Embercrit", "special": null },
+            { "rank": "Starter", "name": "Flareonix", "special": "Flare Blitz" },
+            { "rank": "Intermediate", "name": "Magmahorn", "special": "Molten Charge" },
+            { "rank": "Apex", "name": "Volcanox", "special": "Lava Burst" },
+            { "rank": "Legendary", "name": "Pyraxon", "special": "Apocalypse Flare" }
+        ]
+    },
+    {
+        "base_name": "Glitchip",
+        "forms": [
+            { "rank": "Proto", "name": "Glitchip", "special": null },
+            { "rank": "Starter", "name": "Glitchamp", "special": "Data Surge" },
+            { "rank": "Intermediate", "name": "Glitchgeist", "special": "Reality Distortion" },
+            { "rank": "Apex", "name": "GhoulVirus", "special": "Code Breaker" },
+            { "rank": "Legendary", "name": "Sovereign_Core_v2", "special": "System Collapse" }
+        ]
+    },
+    {
+        "base_name": "Chilluff",
+        "forms": [
+            { "rank": "Proto", "name": "Chilluff", "special": null },
+            { "rank": "Starter", "name": "Arctapuff", "special": "Frostbite Swipe" },
+            { "rank": "Intermediate", "name": "Cryozzard", "special": "Whiteout" },
+            { "rank": "Apex", "name": "MegaGlacius", "special": "Glacial Crush" },
+            { "rank": "Legendary", "name": "AuroraChron", "special": "Polar Vortex" }
+        ]
+    },
+    {
+        "base_name": "Bubbleek",
+        "forms": [
+            { "rank": "Proto", "name": "Bubbleek", "special": null },
+            { "rank": "Starter", "name": "Bubbleon", "special": "Jet Splash" },
+            { "rank": "Intermediate", "name": "Shelltor", "special": "Tidal Slap" },
+            { "rank": "Apex", "name": "Tyrrentor", "special": "Maelstrom Spiral" },
+            { "rank": "Legendary", "name": "Abyssalar", "special": "Deep Abyss Surge" }
+        ]
+    },
+    {
+        "base_name": "Sparflik",
+        "forms": [
+            { "rank": "Proto", "name": "Sparflik", "special": null },
+            { "rank": "Starter", "name": "Sparflare", "special": "Shock Burn" },
+            { "rank": "Intermediate", "name": "Voltaspike", "special": "Ion Overload" },
+            { "rank": "Apex", "name": "Ignistorm", "special": "Tempest Flare" },
+            { "rank": "Legendary", "name": "Fusionplux", "special": "Solar Cataclysm" }
+        ]
+    },
+    {
+        "base_name": "Dustdrig",
+        "forms": [
+            { "rank": "Proto", "name": "Dustdrig", "special": null },
+            { "rank": "Starter", "name": "Duneblitz", "special": "Mirage Strike" },
+            { "rank": "Intermediate", "name": "Quartdramon", "special": "Dune Crush" },
+            { "rank": "Apex", "name": "Sandragoon", "special": "Sand Avalanche" },
+            { "rank": "Legendary", "name": "Lord Obliserra", "special": "Endless Dunes" }
+        ]
+    },
+    {
+        "base_name": "Digitusk",
+        "forms": [
+            { "rank": "Proto", "name": "Digitusk", "special": null },
+            { "rank": "Starter", "name": "Bitboar", "special": "Firewall Bash" },
+            { "rank": "Intermediate", "name": "Cryptotuscan", "special": "Codebreaker Tackle" },
+            { "rank": "Apex", "name": "Aurelisk", "special": "Zero-Day Slam" },
+            { "rank": "Legendary", "name": "Emperor Tusk’Zar", "special": "Recursive Annihilation" }
+        ]
+    },
+    {
+        "base_name": "Mythiwing",
+        "forms": [
+            { "rank": "Proto", "name": "Mythiwing", "special": null },
+            { "rank": "Starter", "name": "Mythivar", "special": "Rune Slash" },
+            { "rank": "Intermediate", "name": "Mythrylorn", "special": "Legend’s Pulse" },
+            { "rank": "Apex", "name": "Mythicarus", "special": "Reality Rend" },
+            { "rank": "Legendary", "name": "Omega Mythicarus", "special": "Eternal Echo" }
+        ]
+    },
+    {
+        "base_name": "Radipup",
+        "forms": [
+            { "rank": "Proto", "name": "Radipup", "special": null },
+            { "rank": "Starter", "name": "Radiantwolf", "special": "Toxic Glow" },
+            { "rank": "Intermediate", "name": "Hazbeast", "special": "Gamma Howl" },
+            { "rank": "Apex", "name": "Blighthulk", "special": "Acid Spit" },
+            { "rank": "Legendary", "name": "Toxic Abominant", "special": "Nuclear Winter" }
+        ]
+    },
+    {
+        "base_name": "Venlatch",
+        "forms": [
+            { "rank": "Proto", "name": "Toxling", "special": null },
+            { "rank": "Starter", "name": "Poisonisk", "special": "Neurotoxin Strike" },
+            { "rank": "Intermediate", "name": "Venomlash", "special": "Corrosion Wave" },
+            { "rank": "Apex", "name": "Toxothorn", "special": "Viral Slash" },
+            { "rank": "Legendary", "name": "Gigatox", "special": "Doom Venom" }
+        ]
+    },
+    {
+        "base_name": "Nebulyte",
+        "forms": [
+            { "rank": "Proto", "name": "Nebulyte", "special": null },
+            { "rank": "Starter", "name": "Stellaray", "special": "Solar Flare" },
+            { "rank": "Intermediate", "name": "Astrelith", "special": "Cosmic Pulse" },
+            { "rank": "Apex", "name": "Galaxine", "special": "Graviton Crush" },
+            { "rank": "Legendary", "name": "Eclipsar", "special": "Event Horizon" }
+        ]
+    },
+    {
+        "base_name": "Wispawl",
+        "forms": [
+            { "rank": "Proto", "name": "Wispawl", "special": null },
+            { "rank": "Starter", "name": "Spectuff", "special": "Haunting Cry" },
+            { "rank": "Intermediate", "name": "Phantomax", "special": "Ethereal Slash" },
+            { "rank": "Apex", "name": "Shadewisp", "special": "Shadow Bind" },
+            { "rank": "Legendary", "name": "Netherveil", "special": "Soul Sever" }
+        ]
+    },
+    {
+        "base_name": "Vixitron",
+        "forms": [
+          { "rank": "Proto", "name": "Vixitron", "special": null },
+          { "rank": "Starter", "name": "Vixadra", "special": "Photon Burst" },
+          { "rank": "Intermediate", "name": "Vixeknight", "special": "Pulse Barrage" },
+          { "rank": "Apex", "name": "Vixaeris", "special": "Lightstorm Dive" },
+          { "rank": "Legendary", "name": "Vixaeon Prime", "special": "Nova Rewrite" }
+        ]
+      },
+      {
+        "base_name": "Tortulith",
+        "forms": [
+          { "rank": "Proto", "name": "Tortulith", "special": null },
+          { "rank": "Starter", "name": "Tortelance", "special": "Gun Blast" },
+          { "rank": "Intermediate", "name": "Tortarric", "special": "Shell Shock" },
+          { "rank": "Apex", "name": "Tortaclysm", "special": "Cannon Barrage" },
+          { "rank": "Legendary", "name": "Tortageddon", "special": "Earthshatter Bombardment" }
+        ]
+      },
+      {
+        "base_name": "Nyxwing",
+        "forms": [
+          { "rank": "Proto", "name": "Nyxwing", "special": null },
+          { "rank": "Starter", "name": "Nyxade", "special": "Echowave Strike" },
+          { "rank": "Intermediate", "name": "Nocturnale", "special": "Voltage Pulse" },
+          { "rank": "Apex", "name": "UmbraWyvern", "special": "Phase Howl" },
+          { "rank": "Legendary", "name": "Lunar Dragoon", "special": "Nullify Storm" }
+        ]
+      },
+      {
+        "base_name": "Skidrix",
+        "forms": [
+          { "rank": "Proto", "name": "Skidrix", "special": null },
+          { "rank": "Starter", "name": "Skidash", "special": "Glitch Swipe" },
+          { "rank": "Intermediate", "name": "Reptirex", "special": "Fractal Burst" },
+          { "rank": "Apex", "name": "Mega Novachar", "special": "Error Cascade" },
+          { "rank": "Legendary", "name": "Supreme Chaossaur", "special": "Endless Glitch" }
+        ]
+      },
+      {
+        "base_name": "Patchi",
+        "forms": [
+          { "rank": "Proto", "name": "Patchi", "special": null },
+          { "rank": "Starter", "name": "Rolobug", "special": "Firewall Bash" },
+          { "rank": "Intermediate", "name": "Atveetle", "special": "Pulse Hack" },
+          { "rank": "Apex", "name": "Stagnator-X", "special": "Data Shield" },
+          { "rank": "Legendary", "name": "MechaHerculoom", "special": "System Restore" }
+        ]
+      },
+      {
+        "base_name": "Zapkip",
+        "forms": [
+          { "rank": "Proto", "name": "Zapkip", "special": null },
+          { "rank": "Starter", "name": "Zappix", "special": "Static Rush" },
+          { "rank": "Intermediate", "name": "Voltarix", "special": "Discharge Coil" },
+          { "rank": "Apex", "name": "Ampirra", "special": "Storm Tail Whip" },
+          { "rank": "Legendary", "name": "King Thundrake", "special": "Heaven’s Volt" }
+        ]
+      },
+      {
+        "base_name": "Emberpaw",
+        "forms": [
+          { "rank": "Proto", "name": "Emberpaw", "special": null },
+          { "rank": "Starter", "name": "Blazehound", "special": "Scorch Bite" },
+          { "rank": "Intermediate", "name": "Infercarn", "special": "Heatwave Howl" },
+          { "rank": "Apex", "name": "Alpha Pyrawulf", "special": "Molten Pounce" },
+          { "rank": "Legendary", "name": "Sovereign Hellvyrn", "special": "Apocalypse Flame" }
+        ]
+      },
+      {
+        "base_name": "Spriggop",
+        "forms": [
+          { "rank": "Proto", "name": "Spriggop", "special": null },
+          { "rank": "Starter", "name": "Sprungleaf", "special": "Vine Lash" },
+          { "rank": "Intermediate", "name": "Thornent", "special": "Toxic Thorn Shot" },
+          { "rank": "Apex", "name": "Verdanthorn", "special": "Snare Storm" },
+          { "rank": "Legendary", "name": "King Overgrove", "special": "Nature’s Wrath" }
+        ]
+      },
+      {
+        "base_name": "Dribbin",
+        "forms": [
+          { "rank": "Proto", "name": "Dribbin", "special": null },
+          { "rank": "Starter", "name": "Drobbler", "special": "Hydro Pop" },
+          { "rank": "Intermediate", "name": "Splashrak", "special": "Bubble Net" },
+          { "rank": "Apex", "name": "Aqualisk", "special": "Crashwave" },
+          { "rank": "Legendary", "name": "Tsunaminx Crisis", "special": "Ocean’s Grudge" }
+        ]
+      },
+      {
+        "base_name": "Snowkit",
+        "forms": [
+          { "rank": "Proto", "name": "Snowkit", "special": null },
+          { "rank": "Starter", "name": "Frostuff", "special": "Icicle Claw" },
+          { "rank": "Intermediate", "name": "Glacetail", "special": "Freeze Flash" },
+          { "rank": "Apex", "name": "Cryosphinx", "special": "Frozen Mirage" },
+          { "rank": "Legendary", "name": "Mythic Nivyrin", "special": "Absolute Zero" }
+        ]
+      }
+  ]
