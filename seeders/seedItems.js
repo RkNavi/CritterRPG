@@ -9,12 +9,12 @@ async function seedItems() {
     const items = JSON.parse(data);
 
     for (const item of items) {
-      const { name, value, biome, img, description } = item;
+      const { name, value, biome, img, description, emoji } = item;
 
       await db.query(
-        `INSERT INTO items (name, value, biome, img, description)
-         VALUES ($1, $2, $3, $4, $5)`,
-        [name, value, biome, img, description]
+        `INSERT INTO items (name, value, biome, img, description, emoji)
+         VALUES ($1, $2, $3, $4, $5, $6)`,
+        [name, value, biome, img, description, emoji]
       );
 
       console.log(`✅ Seeded item: ${name}`);

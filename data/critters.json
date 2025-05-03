@@ -996,7 +996,7 @@
         "int": 6,
         "cha": 5,
         "description": "A cybernetic fox rebuilt by rogue engineers in 2287, swift, curious, and highly intelligent.",
-        "img": "./img/proto/vixitron.png"
+        "img": ""
       },
       {
         "name": "Vixadra",
@@ -1009,7 +1009,7 @@
         "int": 7,
         "cha": 5,
         "description": "Wings enhanced with plasma cores, Vixadra slices the skies with light-speed dives.",
-        "img": "./img/starter/vixadra.png"
+        "img": ""
       },
       {
         "name": "Vixeknight",
@@ -1022,7 +1022,7 @@
         "int": 8,
         "cha": 6,
         "description": "Evolved into a master of speed and plasma, Vixenite fires precise energy bolts.",
-        "img": "./img/intermediate/vixeknight.png"
+        "img": ""
       },
       {
         "name": "Vixaeris",
@@ -1035,7 +1035,7 @@
         "int": 10,
         "cha": 7,
         "description": "Vixaeon fuses with advanced AI, becoming a living weapon of light and information.",
-        "img": "./img/apex/vixaeris.png"
+        "img": ""
       },
       {
         "name": "Vixaeon Prime",

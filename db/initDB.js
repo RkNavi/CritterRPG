@@ -71,7 +71,8 @@ async function initTables() {
         value INTEGER DEFAULT 0,
         biome TEXT CHECK (biome IN ('City', 'Forest', 'Mountain', 'Desert')),
         img TEXT,
-        description TEXT
+        description TEXT,
+        emoji TEXT
       );
     `);
 
