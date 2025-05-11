@@ -16,7 +16,7 @@
             { "rank": "Starter", "name": "Leaflume", "special": "Vine Whip" },
             { "rank": "Intermediate", "name": "Bloomnex", "special": "Thorn Barrage" },
             { "rank": "Apex", "name": "Selvaterra", "special": "Nature’s Wrath" },
-            { "rank": "Legendary", "name": "Gaialith", "special": "Everdawn Surge" }
+            { "rank": "Legendary", "name": "Goddess Gaialith", "special": "Everdawn Surge" }
         ]
     },
     {
@@ -26,7 +26,7 @@
             { "rank": "Starter", "name": "Coreclank", "special": "Gear Grind" },
             { "rank": "Intermediate", "name": "Ironvulk", "special": "Overload Strike" },
             { "rank": "Apex", "name": "Hexgolem", "special": "Crushing Servo Slam" },
-            { "rank": "Legendary", "name": "Obliviron", "special": "Quantum Blast" }
+            { "rank": "Legendary", "name": "Titan Obliviron", "special": "Quantum Blast" }
         ]
     },
     {
@@ -45,8 +45,8 @@
             { "rank": "Proto", "name": "Glitchip", "special": null },
             { "rank": "Starter", "name": "Glitchamp", "special": "Data Surge" },
             { "rank": "Intermediate", "name": "Glitchgeist", "special": "Reality Distortion" },
-            { "rank": "Apex", "name": "GhoulVirus", "special": "Code Breaker" },
-            { "rank": "Legendary", "name": "Sovereign_Core_v2", "special": "System Collapse" }
+            { "rank": "Apex", "name": "GhoulVirus_v1", "special": "Code Breaker" },
+            { "rank": "Legendary", "name": "Rogue AI Sovereign_Core_v2", "special": "System Collapse" }
         ]
     },
     {
@@ -126,7 +126,7 @@
             { "rank": "Starter", "name": "Poisonisk", "special": "Neurotoxin Strike" },
             { "rank": "Intermediate", "name": "Venomlash", "special": "Corrosion Wave" },
             { "rank": "Apex", "name": "Toxothorn", "special": "Viral Slash" },
-            { "rank": "Legendary", "name": "Gigatox", "special": "Doom Venom" }
+            { "rank": "Legendary", "name": "Nuclear Gigatox", "special": "Doom Venom" }
         ]
     },
     {
@@ -146,7 +146,7 @@
             { "rank": "Starter", "name": "Spectuff", "special": "Haunting Cry" },
             { "rank": "Intermediate", "name": "Phantomax", "special": "Ethereal Slash" },
             { "rank": "Apex", "name": "Shadewisp", "special": "Shadow Bind" },
-            { "rank": "Legendary", "name": "Netherveil", "special": "Soul Sever" }
+            { "rank": "Legendary", "name": "Dark Netherveil", "special": "Soul Sever" }
         ]
     },
     {
@@ -196,7 +196,7 @@
           { "rank": "Starter", "name": "Rolobug", "special": "Firewall Bash" },
           { "rank": "Intermediate", "name": "Atveetle", "special": "Pulse Hack" },
           { "rank": "Apex", "name": "Stagnator-X", "special": "Data Shield" },
-          { "rank": "Legendary", "name": "MechaHerculoom", "special": "System Restore" }
+          { "rank": "Legendary", "name": "Mecha Herculoom", "special": "System Restore" }
         ]
       },
       {
@@ -226,7 +226,7 @@
           { "rank": "Starter", "name": "Sprungleaf", "special": "Vine Lash" },
           { "rank": "Intermediate", "name": "Thornent", "special": "Toxic Thorn Shot" },
           { "rank": "Apex", "name": "Verdanthorn", "special": "Snare Storm" },
-          { "rank": "Legendary", "name": "King Overgrove", "special": "Nature’s Wrath" }
+          { "rank": "Legendary", "name": "World-tree Overgrove", "special": "Nature’s Wrath" }
         ]
       },
       {
@@ -236,7 +236,7 @@
           { "rank": "Starter", "name": "Drobbler", "special": "Hydro Pop" },
           { "rank": "Intermediate", "name": "Splashrak", "special": "Bubble Net" },
           { "rank": "Apex", "name": "Aqualisk", "special": "Crashwave" },
-          { "rank": "Legendary", "name": "Tsunaminx Crisis", "special": "Ocean’s Grudge" }
+          { "rank": "Legendary", "name": "Empress Tsunaminx", "special": "Ocean’s Grudge" }
         ]
       },
       {
@@ -246,7 +246,9 @@
           { "rank": "Starter", "name": "Frostuff", "special": "Icicle Claw" },
           { "rank": "Intermediate", "name": "Glacetail", "special": "Freeze Flash" },
           { "rank": "Apex", "name": "Cryosphinx", "special": "Frozen Mirage" },
-          { "rank": "Legendary", "name": "Mythic Nivyrin", "special": "Absolute Zero" }
+          { "rank": "Legendary", "name": "Mythic Arcturus", "special": "Absolute Zero" }
         ]
       }
   ]
+
+  

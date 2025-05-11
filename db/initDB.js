@@ -57,6 +57,7 @@ async function initTables() {
           spd INTEGER NOT NULL,
           int INTEGER NOT NULL,
           cha INTEGER NOT NULL,
+          move_list JSONB NOT NULL DEFAULT '{}'::jsonb,
           active BOOLEAN DEFAULT FALSE,
           current_status_effect INTEGER REFERENCES status_effects(id),
           status_duration INTEGER DEFAULT 0
@@ -97,24 +98,27 @@ async function initTables() {
       );
     `);
 
-    // Abilities Table
+    // Special Moves Table
     await db.query(`
-      CREATE TABLE IF NOT EXISTS abilities (
+      CREATE TABLE IF NOT EXISTS special_moves (
         id SERIAL PRIMARY KEY,
         name TEXT UNIQUE NOT NULL,
-        category TEXT CHECK (category IN ('Passive', 'Active')),
+        base_damage INTEGER NOT NULL,
         description TEXT NOT NULL,
-        power INTEGER NOT NULL,
-        crit_rate INTEGER NOT NULL
+        energy_cost INTEGER NOT NULL,
+        status_effect_id INTEGER REFERENCES status_effects(id),
+        status_chance INTEGER DEFAULT 0,
+        dice_sides INTEGER NOT NULL,
+        rank TEXT CHECK (rank IN ('Proto', 'Starter', 'Intermediate', 'Apex', 'Legendary'))
       );
     `);
 
-    // Critter Abilities Table
+    // Critter Special Moves Table
     await db.query(`
-        CREATE TABLE IF NOT EXISTS critter_abilities (
+      CREATE TABLE IF NOT EXISTS critter_special_moves (
         id SERIAL PRIMARY KEY,
         critter_id INTEGER REFERENCES critters(id) ON DELETE CASCADE ON UPDATE CASCADE,
-        ability_id INTEGER REFERENCES abilities(id) ON DELETE CASCADE ON UPDATE CASCADE
+        special_move_id INTEGER REFERENCES special_moves(id) ON DELETE CASCADE ON UPDATE CASCADE
       );
     `);
 

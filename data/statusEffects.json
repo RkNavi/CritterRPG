@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Burn",
+    "description": "Deals damage over time and reduces attack power.",
+    "effect_type": "damage_over_time",
+    "chance_to_apply": 0.3
+  },
+  {
+    "name": "Freeze",
+    "description": "Prevents the target from taking any actions for a short duration.",
+    "effect_type": "action_denial",
+    "chance_to_apply": 0.2
+  },
+  {
+    "name": "Poison",
+    "description": "Deals damage over time.",
+    "effect_type": "damage_over_time",
+    "chance_to_apply": 0.4
+  },
+  {
+    "name": "Paralyze",
+    "description": "Reduces the target's speed and prevents them from doing actions.",
+    "effect_type": "action_denial",
+    "chance_to_apply": 0.25
+  },
+  {
+    "name": "Sleep",
+    "description": "Puts the target to sleep, preventing actions until they wake up.",
+    "effect_type": "action_denial",
+    "chance_to_apply": 0.15
+  },
+  {
+    "name": "Bleed",
+    "description": "Causes the target to lose health over time due to bleeding.",
+    "effect_type": "damage_over_time",
+    "chance_to_apply": 0.35
+  },
+  {
+    "name": "Confuse",
+    "description": "Causes the target to act unpredictably, causing it to attack itself randomly.",
+    "effect_type": "control_debuff",
+    "chance_to_apply": 0.2
+  },
+  {
+    "name": "Hasted",
+    "description": "Increases speed for a set amount of rounds/turns.",
+    "effect_type": "speed_buff",
+    "chance_to_apply": 0.3
+  },
+  {
+    "name": "Slowed",
+    "description": "Decreases speed for a set amount of rounds/turns.",
+    "effect_type": "speed_debuff",
+    "chance_to_apply": 0.3
+  },
+  {
+    "name": "Rooted",
+    "description": "Cannot dodge attacks for several turns.",
+    "effect_type": "dodge_denial",
+    "chance_to_apply": 0.3
+  },
+  {
+    "name": "Blinked",
+    "description": "Has a higher chance to teleport out of the way of incoming attacks (gives a big boost to dodge) for several turns.",
+    "effect_type": "dodge_buff",
+    "chance_to_apply": 0.3
+  },
+  {
+    "name": "Enraged",
+    "description": "Increases attack damage, but forces Critter to only use the basic Attack (no special moves).",
+    "effect_type": "control_alteration",
+    "chance_to_apply": 0.3
+  },
+  {
+    "name": "Silenced",
+    "description": "Prevents use of special moves for a number of turns.",
+    "effect_type": "skill_lock",
+    "chance_to_apply": 0.3
+  },
+  {
+    "name": "Mind Fogged",
+    "description": "Greatly reduces accuracy during attacks.",
+    "effect_type": "accuracy_debuff",
+    "chance_to_apply": 0.3
+  },
+  {
+    "name": "Shocked",
+    "description": "Instantly deals electrical damage and may randomly interrupt actions per turn.",
+    "effect_type": "damage_over_time",
+    "chance_to_apply": 0.3
+  },
+  {
+    "name": "Drained",
+    "description": "Reduces energy each turn for its duration (several turns).",
+    "effect_type": "resource_decay",
+    "chance_to_apply": 0.3
+  }
+]

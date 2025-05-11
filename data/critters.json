@@ -986,7 +986,7 @@
         "img": ""
       },
       {
-        "name": "Vixitron",
+        "name": "Vixi",
         "type": "Cybernetic Fox",
         "rank": "Proto",
         "str": 4,
@@ -999,7 +999,7 @@
         "img": ""
       },
       {
-        "name": "Vixadra",
+        "name": "Vixitron",
         "type": "Cybernetic Fox",
         "rank": "Starter",
         "str": 6,
@@ -1008,7 +1008,7 @@
         "spd": 8,
         "int": 7,
         "cha": 5,
-        "description": "Wings enhanced with plasma cores, Vixadra slices the skies with light-speed dives.",
+        "description": "Wings enhanced with plasma cores, Vixitron slices the skies with light-speed dives.",
         "img": ""
       },
       {
@@ -1025,7 +1025,7 @@
         "img": ""
       },
       {
-        "name": "Vixaeris",
+        "name": "Vixaerion",
         "type": "Cybernetic Fox",
         "rank": "Apex",
         "str": 11,
@@ -1038,7 +1038,7 @@
         "img": ""
       },
       {
-        "name": "Vixaeon Prime",
+        "name": "Vixaerion Prime",
         "type": "Cybernetic Phoenix",
         "rank": "Legendary",
         "str": 14,
@@ -1053,7 +1053,7 @@
     
       {
         "name": "Tortulith",
-        "type": "Gunner Turtle",
+        "type": "Pirate Turtle",
         "rank": "Proto",
         "str": 5,
         "end": 6,
@@ -1061,7 +1061,7 @@
         "spd": 2,
         "int": 4,
         "cha": 3,
-        "description": "A sturdy turtle critter with makeshift guns bolted onto its heavy shell.",
+        "description": "A very common naval Critter often seen in and around ports. Their excellent navigational acumen makes them a fantastic partner for fishermen, or anyone who spends long stretches of time out on the water. They're also reliable swimmers, and so often seen utilized as lifeguards. The gun that they tote with them can be adjusted on the fly for different kinds of ammo, from nets, to spears, even cannonballs. If it can fit in the barrel, it can be fired with surprising accuracy.",
         "img": ""
       },
       {
@@ -1074,7 +1074,7 @@
         "spd": 3,
         "int": 5,
         "cha": 4,
-        "description": "Upgrades to twin reinforced cannons for short-range bombardments.",
+        "description": "Larger and stronger than its predecessor, Tortelance is usually seen when ports require some sort of heavy lifting. It's not uncommon to see them carrying empty shipping containers in teams of two, and several can move even the most full containers with relative ease. They've also upgraded their cannons. Though these cannons lack the versatility of their smaller brethren's, they're still very powerful and are better used in combat scenarios. They can often be seen carrying several on their backs, all loaded, allowing them to rapid fire until they've run out. Reloading them, unfortunately, takes a while.",
         "img": ""
       },
       {
@@ -1087,7 +1087,7 @@
         "spd": 3,
         "int": 6,
         "cha": 5,
-        "description": "Even heavier now, Tortarric lumbers into battle like a mobile tank.",
+        "description": "Even heavier now, Tortarric lumbers into battle like a mobile tank. The obsession with cannons and heavy weaponry has forced this Critter to move around on all fours. While still perfectly capable of walking on two legs like its predecessor, the weight of its armaments forces it to walk on all fours. This has the added benefit of allowing them to fire the cannons on their back while on the move, though it's difficult to gauge how they manage it without actually touching it, nor how the cannons reload. Some speculate that there's an entire weapons factory housed within their sturdy shell, but no-one's found the means to crack it and check.",
         "img": ""
       },
       {
@@ -1113,7 +1113,7 @@
         "spd": 5,
         "int": 8,
         "cha": 6,
-        "description": "A living fortress, Tortageddon is a war machine unstoppable in motion.",
+        "description": "Tortageddon is a war machine unstoppable in motion. What little humanity - or turtleity? - that this Critter used to have is gone now. Very little of the original remains, most of its organics traded for the technology and weaponry it so desperately sought. Now capable of flight, and with more explosive armaments, it's capable of controlling its destructive capabilities to an almost insane degree. The missiles on its back are mini-nukes, so powerful that their use are banned except in dire circumstances. They're automatically disarmed when within a certain radius of any populated area, as that's the only compromise that could be made. Careless use of the mini-nukes may result in the destruction of not just the target, but also the Critter and its partner.",
         "img": ""
       },
     
@@ -1324,12 +1324,12 @@
         "spd": 6,
         "int": 4,
         "cha": 5,
-        "description": "A jittery, yellow rodent crackling with static and energy surges.",
+        "description": "A jittery, blue and yellow rodent crackling with static and energy surges.",
         "img": ""
       },
       {
-        "name": "Zappix",
-        "type": "Electric Rodent",
+        "name": "Voltrounce",
+        "type": "Electric Bunny",
         "rank": "Starter",
         "str": 4,
         "end": 4,
@@ -1337,11 +1337,11 @@
         "spd": 7,
         "int": 5,
         "cha": 5,
-        "description": "Sparks fly from its tail as it dashes between attacks.",
+        "description": "With arcing energy pulsing through its longer limbs and dual tail-coils, Voltrounce is faster, stronger, and louder than before. Its body crackles with unstable static, releasing bursts of lightning as it dashes. Sparks fly from its tail as it dashes between attacks.",
         "img": ""
       },
       {
-        "name": "Voltarix",
+        "name": "Ampzerker",
         "type": "Electric Rodent",
         "rank": "Intermediate",
         "str": 5,
@@ -1354,7 +1354,7 @@
         "img": ""
       },
       {
-        "name": "Ampirra",
+        "name": "Stormvernox",
         "type": "Storm Beast",
         "rank": "Apex",
         "str": 6,

@@ -1,0 +1,992 @@
+[
+  {
+    "name": "Photon Burst",
+    "base_damage": 15,
+    "description": "A burst of concentrated light energy.",
+    "energy_cost": 8,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 8,
+    "rank": "Starter"
+  },
+  {
+    "name": "Gun Blast",
+    "base_damage": 15,
+    "description": "A powerful blast from a mounted gun.",
+    "energy_cost": 10,
+    "status_effect_id": 1,
+    "status_chance": 25,
+    "dice_sides": 6,
+    "rank": "Starter"
+  },
+  {
+    "name": "Seismic Stomp",
+    "base_damage": 25,
+    "description": "A ground-shaking stomp that damages all enemies.",
+    "energy_cost": 12,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 8,
+    "rank": "Intermediate"
+  },
+  {
+    "name": "Freeze Ray",
+    "base_damage": 10,
+    "description": "A chilling ray that freezes the target.",
+    "energy_cost": 10,
+    "status_effect_id": 2,
+    "status_chance": 30,
+    "dice_sides": 4,
+    "rank": "Starter"
+  },
+  {
+    "name": "Concrete Slam",
+    "base_damage": 20,
+    "description": "A powerful slam that shakes the ground.",
+    "energy_cost": 10,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 6,
+    "rank": "Starter"
+  },
+  {
+    "name": "Titan Smash",
+    "base_damage": 30,
+    "description": "A devastating smash with immense force.",
+    "energy_cost": 15,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 10,
+    "rank": "Apex"
+  },
+  {
+    "name": "Citadel Crush",
+    "base_damage": 40,
+    "description": "A legendary move that crushes everything in its path.",
+    "energy_cost": 20,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 12,
+    "rank": "Legendary"
+  },
+  {
+    "name": "Vine Whip",
+    "base_damage": 15,
+    "description": "A quick lash with a vine.",
+    "energy_cost": 8,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 4,
+    "rank": "Starter"
+  },
+  {
+    "name": "Thorn Barrage",
+    "base_damage": 20,
+    "description": "A barrage of sharp thorns.",
+    "energy_cost": 10,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 6,
+    "rank": "Intermediate"
+  },
+  {
+    "name": "Nature’s Wrath",
+    "base_damage": 30,
+    "description": "A powerful attack harnessing the force of nature.",
+    "energy_cost": 15,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 10,
+    "rank": "Apex"
+  },
+  {
+    "name": "Everdawn Surge",
+    "base_damage": 40,
+    "description": "A legendary surge of natural energy.",
+    "energy_cost": 20,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 12,
+    "rank": "Legendary"
+  },
+  {
+    "name": "Gear Grind",
+    "base_damage": 18,
+    "description": "A grinding attack with mechanical precision.",
+    "energy_cost": 9,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 6,
+    "rank": "Starter"
+  },
+  {
+    "name": "Overload Strike",
+    "base_damage": 22,
+    "description": "A powerful strike charged with energy.",
+    "energy_cost": 11,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 8,
+    "rank": "Intermediate"
+  },
+  {
+    "name": "Crushing Servo Slam",
+    "base_damage": 28,
+    "description": "A devastating slam with servo power.",
+    "energy_cost": 14,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 10,
+    "rank": "Apex"
+  },
+  {
+    "name": "Quantum Blast",
+    "base_damage": 35,
+    "description": "A blast of quantum energy.",
+    "energy_cost": 18,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 12,
+    "rank": "Legendary"
+  },
+  {
+    "name": "Flare Blitz",
+    "base_damage": 20,
+    "description": "A fiery charge that engulfs the target.",
+    "energy_cost": 10,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 6,
+    "rank": "Starter"
+  },
+  {
+    "name": "Molten Charge",
+    "base_damage": 25,
+    "description": "A charge attack with molten energy.",
+    "energy_cost": 12,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 8,
+    "rank": "Intermediate"
+  },
+  {
+    "name": "Lava Burst",
+    "base_damage": 30,
+    "description": "A burst of lava that scorches everything.",
+    "energy_cost": 15,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 10,
+    "rank": "Apex"
+  },
+  {
+    "name": "Apocalypse Flare",
+    "base_damage": 40,
+    "description": "A legendary flare that burns all.",
+    "energy_cost": 20,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 12,
+    "rank": "Legendary"
+  },
+  {
+    "name": "Data Surge",
+    "base_damage": 18,
+    "description": "A surge of data energy.",
+    "energy_cost": 9,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 6,
+    "rank": "Starter"
+  },
+  {
+    "name": "Reality Distortion",
+    "base_damage": 22,
+    "description": "A distortion of reality that damages the target.",
+    "energy_cost": 11,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 8,
+    "rank": "Intermediate"
+  },
+  {
+    "name": "Code Breaker",
+    "base_damage": 28,
+    "description": "A powerful attack that breaks through defenses.",
+    "energy_cost": 14,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 10,
+    "rank": "Apex"
+  },
+  {
+    "name": "System Collapse",
+    "base_damage": 35,
+    "description": "A catastrophic attack that collapses systems.",
+    "energy_cost": 18,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 12,
+    "rank": "Legendary"
+  },
+  {
+    "name": "Frostbite Swipe",
+    "base_damage": 18,
+    "description": "A chilling swipe that freezes the target.",
+    "energy_cost": 9,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 6,
+    "rank": "Starter"
+  },
+  {
+    "name": "Whiteout",
+    "base_damage": 22,
+    "description": "A blinding snowstorm that damages all enemies.",
+    "energy_cost": 11,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 8,
+    "rank": "Intermediate"
+  },
+  {
+    "name": "Glacial Crush",
+    "base_damage": 28,
+    "description": "A massive ice attack that crushes the target.",
+    "energy_cost": 14,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 10,
+    "rank": "Apex"
+  },
+  {
+    "name": "Polar Vortex",
+    "base_damage": 35,
+    "description": "A legendary vortex of freezing winds.",
+    "energy_cost": 18,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 12,
+    "rank": "Legendary"
+  },
+  {
+    "name": "Jet Splash",
+    "base_damage": 18,
+    "description": "A high-pressure water attack.",
+    "energy_cost": 9,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 6,
+    "rank": "Starter"
+  },
+  {
+    "name": "Tidal Slap",
+    "base_damage": 22,
+    "description": "A powerful slap with tidal force.",
+    "energy_cost": 11,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 8,
+    "rank": "Intermediate"
+  },
+  {
+    "name": "Maelstrom Spiral",
+    "base_damage": 28,
+    "description": "A spiraling water attack that engulfs enemies.",
+    "energy_cost": 14,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 10,
+    "rank": "Apex"
+  },
+  {
+    "name": "Deep Abyss Surge",
+    "base_damage": 35,
+    "description": "A legendary surge of abyssal water.",
+    "energy_cost": 18,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 12,
+    "rank": "Legendary"
+  },
+  {
+    "name": "Shock Burn",
+    "base_damage": 18,
+    "description": "An electrifying attack that burns the target.",
+    "energy_cost": 9,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 6,
+    "rank": "Starter"
+  },
+  {
+    "name": "Ion Overload",
+    "base_damage": 22,
+    "description": "An overload of ion energy that shocks enemies.",
+    "energy_cost": 11,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 8,
+    "rank": "Intermediate"
+  },
+  {
+    "name": "Tempest Flare",
+    "base_damage": 28,
+    "description": "A fiery storm that engulfs the battlefield.",
+    "energy_cost": 14,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 10,
+    "rank": "Apex"
+  },
+  {
+    "name": "Solar Cataclysm",
+    "base_damage": 35,
+    "description": "A legendary solar explosion that devastates enemies.",
+    "energy_cost": 18,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 12,
+    "rank": "Legendary"
+  },
+  {
+    "name": "Mirage Strike",
+    "base_damage": 18,
+    "description": "A deceptive strike that confuses the target.",
+    "energy_cost": 9,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 6,
+    "rank": "Starter"
+  },
+  {
+    "name": "Dune Crush",
+    "base_damage": 22,
+    "description": "A crushing attack with the force of a sandstorm.",
+    "energy_cost": 11,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 8,
+    "rank": "Intermediate"
+  },
+  {
+    "name": "Sand Avalanche",
+    "base_damage": 28,
+    "description": "A massive sand attack that buries enemies.",
+    "energy_cost": 14,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 10,
+    "rank": "Apex"
+  },
+  {
+    "name": "Endless Dunes",
+    "base_damage": 35,
+    "description": "A legendary attack that summons endless dunes.",
+    "energy_cost": 18,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 12,
+    "rank": "Legendary"
+  },
+  {
+    "name": "Firewall Bash",
+    "base_damage": 18,
+    "description": "A fiery bash that burns the target.",
+    "energy_cost": 9,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 6,
+    "rank": "Starter"
+  },
+  {
+    "name": "Codebreaker Tackle",
+    "base_damage": 22,
+    "description": "A tackle that disrupts code.",
+    "energy_cost": 11,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 8,
+    "rank": "Intermediate"
+  },
+  {
+    "name": "Zero-Day Slam",
+    "base_damage": 28,
+    "description": "A devastating slam exploiting vulnerabilities.",
+    "energy_cost": 14,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 10,
+    "rank": "Apex"
+  },
+  {
+    "name": "Recursive Annihilation",
+    "base_damage": 35,
+    "description": "A recursive attack that annihilates the target.",
+    "energy_cost": 18,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 12,
+    "rank": "Legendary"
+  },
+  {
+    "name": "Rune Slash",
+    "base_damage": 18,
+    "description": "A slash imbued with ancient runes.",
+    "energy_cost": 9,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 6,
+    "rank": "Starter"
+  },
+  {
+    "name": "Legend’s Pulse",
+    "base_damage": 22,
+    "description": "A pulse of legendary energy.",
+    "energy_cost": 11,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 8,
+    "rank": "Intermediate"
+  },
+  {
+    "name": "Reality Rend",
+    "base_damage": 28,
+    "description": "A rending attack that distorts reality.",
+    "energy_cost": 14,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 10,
+    "rank": "Apex"
+  },
+  {
+    "name": "Eternal Echo",
+    "base_damage": 35,
+    "description": "A legendary attack that echoes through eternity.",
+    "energy_cost": 18,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 12,
+    "rank": "Legendary"
+  },
+  {
+    "name": "Toxic Glow",
+    "base_damage": 18,
+    "description": "A glowing attack that poisons the target.",
+    "energy_cost": 9,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 6,
+    "rank": "Starter"
+  },
+  {
+    "name": "Gamma Howl",
+    "base_damage": 22,
+    "description": "A howling attack with gamma energy.",
+    "energy_cost": 11,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 8,
+    "rank": "Intermediate"
+  },
+  {
+    "name": "Acid Spit",
+    "base_damage": 28,
+    "description": "A spit of acid that corrodes the target.",
+    "energy_cost": 14,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 10,
+    "rank": "Apex"
+  },
+  {
+    "name": "Nuclear Winter",
+    "base_damage": 35,
+    "description": "A legendary attack that freezes and poisons.",
+    "energy_cost": 18,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 12,
+    "rank": "Legendary"
+  },
+  {
+    "name": "Neurotoxin Strike",
+    "base_damage": 18,
+    "description": "A strike that injects neurotoxins.",
+    "energy_cost": 9,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 6,
+    "rank": "Starter"
+  },
+  {
+    "name": "Corrosion Wave",
+    "base_damage": 22,
+    "description": "A wave of corrosive energy.",
+    "energy_cost": 11,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 8,
+    "rank": "Intermediate"
+  },
+  {
+    "name": "Viral Slash",
+    "base_damage": 28,
+    "description": "A slash that spreads a viral effect.",
+    "energy_cost": 14,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 10,
+    "rank": "Apex"
+  },
+  {
+    "name": "Doom Venom",
+    "base_damage": 35,
+    "description": "A legendary venomous attack.",
+    "energy_cost": 18,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 12,
+    "rank": "Legendary"
+  },
+  {
+    "name": "Solar Flare",
+    "base_damage": 18,
+    "description": "A flare of solar energy.",
+    "energy_cost": 9,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 6,
+    "rank": "Starter"
+  },
+  {
+    "name": "Cosmic Pulse",
+    "base_damage": 22,
+    "description": "A pulse of cosmic energy.",
+    "energy_cost": 11,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 8,
+    "rank": "Intermediate"
+  },
+  {
+    "name": "Graviton Crush",
+    "base_damage": 28,
+    "description": "A crushing attack with gravitational force.",
+    "energy_cost": 14,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 10,
+    "rank": "Apex"
+  },
+  {
+    "name": "Event Horizon",
+    "base_damage": 35,
+    "description": "A legendary attack with the force of a black hole.",
+    "energy_cost": 18,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 12,
+    "rank": "Legendary"
+  },
+  {
+    "name": "Haunting Cry",
+    "base_damage": 18,
+    "description": "A cry that haunts the target.",
+    "energy_cost": 9,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 6,
+    "rank": "Starter"
+  },
+  {
+    "name": "Ethereal Slash",
+    "base_damage": 22,
+    "description": "A slash with ethereal energy.",
+    "energy_cost": 11,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 8,
+    "rank": "Intermediate"
+  },
+  {
+    "name": "Shadow Bind",
+    "base_damage": 28,
+    "description": "A binding attack with shadow energy.",
+    "energy_cost": 14,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 10,
+    "rank": "Apex"
+  },
+  {
+    "name": "Soul Sever",
+    "base_damage": 35,
+    "description": "A legendary attack that severs the soul.",
+    "energy_cost": 18,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 12,
+    "rank": "Legendary"
+  },
+  {
+    "name": "Pulse Barrage",
+    "base_damage": 25,
+    "description": "A rapid barrage of energy pulses.",
+    "energy_cost": 12,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 8,
+    "rank": "Intermediate"
+  },
+  {
+    "name": "Lightstorm Dive",
+    "base_damage": 30,
+    "description": "A dive attack with a storm of light.",
+    "energy_cost": 15,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 10,
+    "rank": "Apex"
+  },
+  {
+    "name": "Nova Rewrite",
+    "base_damage": 40,
+    "description": "A legendary attack rewriting the stars.",
+    "energy_cost": 20,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 12,
+    "rank": "Legendary"
+  },
+  {
+    "name": "Shell Shock",
+    "base_damage": 25,
+    "description": "A shocking attack with a hardened shell.",
+    "energy_cost": 12,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 8,
+    "rank": "Intermediate"
+  },
+  {
+    "name": "Cannon Barrage",
+    "base_damage": 30,
+    "description": "A barrage of cannon fire.",
+    "energy_cost": 15,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 10,
+    "rank": "Apex"
+  },
+  {
+    "name": "Earthshatter Bombardment",
+    "base_damage": 40,
+    "description": "A legendary bombardment shattering the earth.",
+    "energy_cost": 20,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 12,
+    "rank": "Legendary"
+  },
+  {
+    "name": "Echowave Strike",
+    "base_damage": 25,
+    "description": "A strike with echoing waves of energy.",
+    "energy_cost": 12,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 8,
+    "rank": "Intermediate"
+  },
+  {
+    "name": "Voltage Pulse",
+    "base_damage": 30,
+    "description": "A pulse of high voltage energy.",
+    "energy_cost": 15,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 10,
+    "rank": "Apex"
+  },
+  {
+    "name": "Phase Howl",
+    "base_damage": 35,
+    "description": "A howl that phases through dimensions.",
+    "energy_cost": 18,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 12,
+    "rank": "Legendary"
+  },
+  {
+    "name": "Nullify Storm",
+    "base_damage": 40,
+    "description": "A legendary storm that nullifies all.",
+    "energy_cost": 20,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 12,
+    "rank": "Legendary"
+  },
+  {
+    "name": "Glitch Swipe",
+    "base_damage": 25,
+    "description": "A swipe attack with glitching energy.",
+    "energy_cost": 12,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 8,
+    "rank": "Intermediate"
+  },
+  {
+    "name": "Fractal Burst",
+    "base_damage": 30,
+    "description": "A burst of fractal energy.",
+    "energy_cost": 15,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 10,
+    "rank": "Apex"
+  },
+  {
+    "name": "Error Cascade",
+    "base_damage": 35,
+    "description": "A cascading error attack.",
+    "energy_cost": 18,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 12,
+    "rank": "Legendary"
+  },
+  {
+    "name": "Endless Glitch",
+    "base_damage": 40,
+    "description": "A legendary glitch attack with no end.",
+    "energy_cost": 20,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 12,
+    "rank": "Legendary"
+  },
+  {
+    "name": "Pulse Hack",
+    "base_damage": 25,
+    "description": "A hacking attack with pulsing energy.",
+    "energy_cost": 12,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 8,
+    "rank": "Intermediate"
+  },
+  {
+    "name": "Data Shield",
+    "base_damage": 30,
+    "description": "A shield of protective data energy.",
+    "energy_cost": 15,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 10,
+    "rank": "Apex"
+  },
+  {
+    "name": "System Restore",
+    "base_damage": 40,
+    "description": "A legendary restoration of system energy.",
+    "energy_cost": 20,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 12,
+    "rank": "Legendary"
+  },
+  {
+    "name": "Static Rush",
+    "base_damage": 25,
+    "description": "A rush of static energy.",
+    "energy_cost": 12,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 8,
+    "rank": "Intermediate"
+  },
+  {
+    "name": "Discharge Coil",
+    "base_damage": 30,
+    "description": "A coil attack discharging energy.",
+    "energy_cost": 15,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 10,
+    "rank": "Apex"
+  },
+  {
+    "name": "Storm Tail Whip",
+    "base_damage": 35,
+    "description": "A whip attack with storm energy.",
+    "energy_cost": 18,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 12,
+    "rank": "Legendary"
+  },
+  {
+    "name": "Heaven’s Volt",
+    "base_damage": 40,
+    "description": "A legendary volt attack from the heavens.",
+    "energy_cost": 20,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 12,
+    "rank": "Legendary"
+  },
+  {
+    "name": "Scorch Bite",
+    "base_damage": 25,
+    "description": "A biting attack with scorching energy.",
+    "energy_cost": 12,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 8,
+    "rank": "Intermediate"
+  },
+  {
+    "name": "Heatwave Howl",
+    "base_damage": 30,
+    "description": "A howling attack with heatwave energy.",
+    "energy_cost": 15,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 10,
+    "rank": "Apex"
+  },
+  {
+    "name": "Molten Pounce",
+    "base_damage": 35,
+    "description": "A pouncing attack with molten energy.",
+    "energy_cost": 18,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 12,
+    "rank": "Legendary"
+  },
+  {
+    "name": "Apocalypse Flame",
+    "base_damage": 40,
+    "description": "A legendary flame attack of the apocalypse.",
+    "energy_cost": 20,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 12,
+    "rank": "Legendary"
+  },
+  {
+    "name": "Vine Lash",
+    "base_damage": 25,
+    "description": "A lashing attack with vine energy.",
+    "energy_cost": 12,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 8,
+    "rank": "Intermediate"
+  },
+  {
+    "name": "Toxic Thorn Shot",
+    "base_damage": 30,
+    "description": "A shot of toxic thorns.",
+    "energy_cost": 15,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 10,
+    "rank": "Apex"
+  },
+  {
+    "name": "Snare Storm",
+    "base_damage": 35,
+    "description": "A storm attack with snaring energy.",
+    "energy_cost": 18,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 12,
+    "rank": "Legendary"
+  },
+  {
+    "name": "Ocean’s Grudge",
+    "base_damage": 40,
+    "description": "A legendary attack with the ocean’s wrath.",
+    "energy_cost": 20,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 12,
+    "rank": "Legendary"
+  },
+  {
+    "name": "Hydro Pop",
+    "base_damage": 25,
+    "description": "A popping attack with hydro energy.",
+    "energy_cost": 12,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 8,
+    "rank": "Intermediate"
+  },
+  {
+    "name": "Bubble Net",
+    "base_damage": 30,
+    "description": "A net attack with bubble energy.",
+    "energy_cost": 15,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 10,
+    "rank": "Apex"
+  },
+  {
+    "name": "Crashwave",
+    "base_damage": 35,
+    "description": "A crashing attack with wave energy.",
+    "energy_cost": 18,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 12,
+    "rank": "Legendary"
+  },
+  {
+    "name": "Icicle Claw",
+    "base_damage": 25,
+    "description": "A clawing attack with icicle energy.",
+    "energy_cost": 12,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 8,
+    "rank": "Intermediate"
+  },
+  {
+    "name": "Freeze Flash",
+    "base_damage": 30,
+    "description": "A flashing attack with freezing energy.",
+    "energy_cost": 15,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 10,
+    "rank": "Apex"
+  },
+  {
+    "name": "Frozen Mirage",
+    "base_damage": 35,
+    "description": "A mirage attack with frozen energy.",
+    "energy_cost": 18,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 12,
+    "rank": "Legendary"
+  },
+  {
+    "name": "Absolute Zero",
+    "base_damage": 40,
+    "description": "A legendary attack with absolute freezing energy.",
+    "energy_cost": 20,
+    "status_effect_id": null,
+    "status_chance": 0,
+    "dice_sides": 12,
+    "rank": "Legendary"
+  }
+]
