@@ -7,10 +7,55 @@ async function craft(message, args) {
   const userId = message.author.id;
   const targetName = args.join(' ').trim();
   if (!targetName) {
+    // Fetch the user's inventory
+    const playerResult = await db.query('SELECT user_id FROM players WHERE user_id = $1', [userId]);
+    if (playerResult.rows.length === 0) {
+      const embed = new EmbedBuilder()
+        .setTitle('❌ Not Registered')
+        .setDescription('You must register before crafting. Use `!register`.')
+        .setColor(0xff5555);
+      return message.channel.send({ embeds: [embed] });
+    }
+    const inventoryResult = await db.query(
+      `SELECT i.name, pi.quantity FROM player_items pi JOIN items i ON pi.item_id = i.id WHERE pi.user_id = $1`,
+      [userId]
+    );
+    const inventory = {};
+    for (const row of inventoryResult.rows) {
+      inventory[row.name] = row.quantity;
+    }
+    // Find all craftable critters
+    const craftable = [];
+    for (const recipe of recipes) {
+      const missing = [];
+      for (const [itemName, qty] of Object.entries(recipe.required_items)) {
+        if (!inventory[itemName] || inventory[itemName] < qty) {
+          missing.push(`${qty}x ${itemName}`);
+        }
+      }
+      if (missing.length === 0) {
+        // User can craft this critter
+        craftable.push({
+          name: recipe.critter_name,
+          items: Object.entries(recipe.required_items).map(([item, qty]) => `${qty}x ${item}`)
+        });
+      }
+    }
+    if (craftable.length === 0) {
+      const embed = new EmbedBuilder()
+        .setTitle('❌ No Craftable Critters')
+        .setDescription('You do not have enough items to craft any critters.')
+        .setColor(0xffaa00);
+      return message.channel.send({ embeds: [embed] });
+    }
+    // Build embed with craftable critters
     const embed = new EmbedBuilder()
-      .setTitle('❌ Missing Critter Name')
-      .setDescription('Please specify a Critter to craft.')
-      .setColor(0xff5555);
+      .setTitle('🛠️ Craftable Critters')
+      .setDescription('You can craft the following critters with your current inventory:')
+      .setColor(0x00bfff);
+    for (const c of craftable) {
+      embed.addFields({ name: c.name, value: c.items.join(', '), inline: false });
+    }
     return message.channel.send({ embeds: [embed] });
   }
 
@@ -94,7 +139,7 @@ async function craft(message, args) {
       const itemResult = await db.query(
         `SELECT pi.quantity FROM player_items pi
          JOIN items i ON pi.item_id = i.id
-         WHERE pi.user_id = (SELECT id FROM players WHERE user_id = $1) AND i.name = $2`,
+         WHERE pi.user_id = $1 AND i.name = $2`,
         [userId, itemName]
       );
 
@@ -110,7 +155,7 @@ async function craft(message, args) {
     for (const [itemName, itemQty] of Object.entries(recipe.required_items)) {
       await db.query(
         `UPDATE player_items SET quantity = quantity - $1
-         WHERE user_id = (SELECT id FROM players WHERE user_id = $2)
+         WHERE user_id = $2
          AND item_id = (SELECT id FROM items WHERE name = $3)`,
         [itemQty, userId, itemName]
       );
@@ -121,7 +166,7 @@ async function craft(message, args) {
         `DELETE FROM player_critters
          WHERE id IN (
            SELECT id FROM player_critters
-           WHERE user_id = (SELECT id FROM players WHERE user_id = $1)
+           WHERE user_id = $1
            AND critter_id = $2
            LIMIT 3
          )`,
@@ -132,9 +177,9 @@ async function craft(message, args) {
     await db.query(
       `INSERT INTO player_critters (
          user_id, critter_id, level, xp, health, energy,
-         str, end, dex, spd, int, cha, active
+         str, "end", dex, spd, int, cha, active
        ) VALUES (
-         (SELECT id FROM players WHERE user_id = $1), $2, 1, 0, 100, 100,
+         $1, $2, 1, 0, 100, 100,
          $3, $4, $5, $6, $7, $8, FALSE
        )`,
       [userId, targetCritter.id,

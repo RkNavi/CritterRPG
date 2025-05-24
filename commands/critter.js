@@ -28,16 +28,19 @@ module.exports = async function critter(message, args) {
     const embed = new EmbedBuilder()
       .setColor(0x0099ff)
       .setTitle(`📘 ${critter.name} (${critter.rank})`)
-      .setDescription(critter.description)
-      .setThumbnail(critter.img)
-      .addFields(
-        { name: '🔹 Type', value: critter.type, inline: true },
-        { name: '🔸 Level', value: critter.level.toString(), inline: true },
-        { name: '✨ XP', value: critter.xp.toString(), inline: true },
-        { name: '❤️ HP', value: critter.health.toString(), inline: true },
-        { name: '⚡ Energy', value: critter.energy.toString(), inline: true },
-        { name: '📊 Stats', value: `STR ${critter.str} | END ${critter.end} | DEX ${critter.dex} | SPD ${critter.spd} | INT ${critter.int} | CHA ${critter.cha}` }
-      )
+      .setDescription(critter.description);
+    // Only set thumbnail if img is a valid URL
+    if (critter.img && (critter.img.startsWith('http://') || critter.img.startsWith('https://'))) {
+      embed.setThumbnail(critter.img);
+    }
+    embed.addFields(
+      { name: '🔹 Type', value: critter.type, inline: true },
+      { name: '🔸 Level', value: critter.level.toString(), inline: true },
+      { name: '✨ XP', value: critter.xp.toString(), inline: true },
+      { name: '❤️ HP', value: critter.health.toString(), inline: true },
+      { name: '⚡ Energy', value: critter.energy.toString(), inline: true },
+      { name: '📊 Stats', value: `STR ${critter.str} | END ${critter.end} | DEX ${critter.dex} | SPD ${critter.spd} | INT ${critter.int} | CHA ${critter.cha}` }
+    )
       .setFooter({ text: 'Use !critters to view your full roster.' });
 
     return message.reply({ embeds: [embed] });

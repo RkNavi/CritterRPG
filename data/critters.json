@@ -22,7 +22,7 @@
       "spd": 4,
       "int": 3,
       "cha": 3,
-      "description": "Larger and tougher, Briknash uses chunks of urban rubble to bash enemies.",
+      "description": "Larger and tougher, Briknash uses chunks of urban rubble to bash ememies.",
       "img": ""
     },
     {
@@ -30,7 +30,7 @@
       "type": "Urban Rubble",
       "rank": "Intermediate",
       "str": 9,
-      "end": 8,
+      "end": 9,
       "dex": 6,
       "spd": 5,
       "int": 4,
@@ -118,7 +118,7 @@
       "img": ""
     },
     {
-      "name": "Gaialith",
+      "name": "Goddess Gaialith",
       "type": "Forest Avatar",
       "rank": "Legendary",
       "str": 13,
@@ -184,7 +184,7 @@
       "img": ""
     },
     {
-      "name": "Obliviron",
+      "name": "Titan Obliviron",
       "type": "Quantum Mech",
       "rank": "Legendary",
       "str": 15,
@@ -303,7 +303,7 @@
       "img": ""
     },
     {
-      "name": "GhoulVirus",
+      "name": "GhoulVirus_v1",
       "type": "Digital Wisp",
       "rank": "Apex",
       "str": 7,
@@ -316,7 +316,7 @@
       "img": ""
     },
     {
-      "name": "Sovereign_Core_v2",
+      "name": "Rogue AI Sovereign_Core_v2",
       "type": "Digital Overlord",
       "rank": "Legendary",
       "str": 10,
@@ -841,7 +841,7 @@
         "img": ""
       },
       {
-        "name": "Gigatox",
+        "name": "Nuclear Gigatox",
         "type": "Toxic Legend",
         "rank": "Legendary",
         "str": 10,
@@ -973,7 +973,7 @@
         "img": ""
       },
       {
-        "name": "Netherveil",
+        "name": "Dark Netherveil",
         "type": "Spectral Entity",
         "rank": "Legendary",
         "str": 9,
@@ -1025,7 +1025,7 @@
         "img": ""
       },
       {
-        "name": "Vixaerion",
+        "name": "Vixaerieon",
         "type": "Cybernetic Fox",
         "rank": "Apex",
         "str": 11,
@@ -1038,7 +1038,7 @@
         "img": ""
       },
       {
-        "name": "Vixaerion Prime",
+        "name": "Vixaerieon Prime",
         "type": "Cybernetic Phoenix",
         "rank": "Legendary",
         "str": 14,
@@ -1302,7 +1302,7 @@
         "img": ""
       },
       {
-        "name": "MechaHerculoom",
+        "name": "Mecha Herculoom",
         "type": "Data Trickster",
         "rank": "Legendary",
         "str": 8,
@@ -1311,7 +1311,7 @@
         "spd": 8,
         "int": 10,
         "cha": 8,
-        "description": "Patchtrix repairs and destroys systems alike, a trickster among cyberspace.",
+        "description": "Mecha Herculoom repairs and destroys systems alike, a trickster among cyberspace.",
         "img": ""
       },
       {
@@ -1497,7 +1497,7 @@
         "img": ""
       },
       {
-        "name": "King Overgrove",
+        "name": "World-tree Overgrove",
         "type": "Ancient Tree",
         "rank": "Legendary",
         "str": 9,
@@ -1562,7 +1562,7 @@
         "img": ""
       },
       {
-        "name": "Tsunaminx Crisis",
+        "name": "Empress Tsunaminx",
         "type": "Sea Colossus",
         "rank": "Legendary",
         "str": 9,
@@ -1575,7 +1575,7 @@
         "img": ""
       },
       {
-        "name": "Snowkit",
+        "name": "Snowkip",
         "type": "Ice Cat",
         "rank": "Proto",
         "str": 3,
@@ -1627,7 +1627,7 @@
         "img": ""
       },
       {
-        "name": "Mythic Nivyrin",
+        "name": "Mythic Arcturus",
         "type": "Mythic Frost Beast",
         "rank": "Legendary",
         "str": 9,
@@ -1636,8 +1636,7 @@
         "spd": 9,
         "int": 8,
         "cha": 8,
-        "description": "Nivyrin is a mythic frost beast said to walk where snow never melts.",
+        "description": "Arcturus is a mythic frost beast said to walk where snow never melts.",
         "img": ""
       }
   ]
-  

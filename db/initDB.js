@@ -26,7 +26,7 @@ async function initTables() {
         int INTEGER NOT NULL,
         cha INTEGER NOT NULL,
         description TEXT NOT NULL,
-        img TEXT NOT NULL
+        img TEXT
       );
     `);
 
@@ -36,8 +36,8 @@ async function initTables() {
         id SERIAL PRIMARY KEY,
         name TEXT UNIQUE NOT NULL,
         description TEXT NOT NULL,
-        effect_type TEXT CHECK (effect_type IN ('Burn', 'Bleed', 'Poison', 'Paralyze', 'Freeze', 'Confuse', 'Stun')),
-        chance_to_apply INTEGER NOT NULL DEFAULT 25
+        effect_type TEXT NOT NULL,
+        chance_to_apply NUMERIC NOT NULL DEFAULT 25
       );
     `)
 

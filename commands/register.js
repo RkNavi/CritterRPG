@@ -39,7 +39,17 @@ module.exports = async function register(message) {
     // 5. Collect required items from the 3 recipes
     const itemQuantities = {};
     for (const recipe of selectedRecipes) {
-      for (const [itemName, quantity] of Object.entries(recipe.required_items)) {
+      let requiredItems = recipe.required_items;
+      if (typeof requiredItems === 'string') {
+        try {
+          requiredItems = JSON.parse(requiredItems);
+        } catch (e) {
+          console.error('Failed to parse required_items for recipe:', recipe, e);
+          continue;
+        }
+      }
+      console.log('Selected recipe:', recipe.critter_name, 'Required items:', requiredItems);
+      for (const [itemName, quantity] of Object.entries(requiredItems)) {
         itemQuantities[itemName] = (itemQuantities[itemName] || 0) + quantity;
       }
     }

@@ -150,13 +150,13 @@
         ]
     },
     {
-        "base_name": "Vixitron",
+        "base_name": "Vixi",
         "forms": [
-          { "rank": "Proto", "name": "Vixitron", "special": null },
-          { "rank": "Starter", "name": "Vixadra", "special": "Photon Burst" },
+          { "rank": "Proto", "name": "Vixi", "special": null },
+          { "rank": "Starter", "name": "Vixitron", "special": "Photon Burst" },
           { "rank": "Intermediate", "name": "Vixeknight", "special": "Pulse Barrage" },
-          { "rank": "Apex", "name": "Vixaeris", "special": "Lightstorm Dive" },
-          { "rank": "Legendary", "name": "Vixaeon Prime", "special": "Nova Rewrite" }
+          { "rank": "Apex", "name": "Vixaerieon", "special": "Lightstorm Dive" },
+          { "rank": "Legendary", "name": "Vixaerieon Prime", "special": "Nova Rewrite" }
         ]
       },
       {
@@ -203,9 +203,9 @@
         "base_name": "Zapkip",
         "forms": [
           { "rank": "Proto", "name": "Zapkip", "special": null },
-          { "rank": "Starter", "name": "Zappix", "special": "Static Rush" },
-          { "rank": "Intermediate", "name": "Voltarix", "special": "Discharge Coil" },
-          { "rank": "Apex", "name": "Ampirra", "special": "Storm Tail Whip" },
+          { "rank": "Starter", "name": "Voltrounce", "special": "Static Rush" },
+          { "rank": "Intermediate", "name": "Ampzerker", "special": "Discharge Coil" },
+          { "rank": "Apex", "name": "Stormvernox", "special": "Storm Tail Whip" },
           { "rank": "Legendary", "name": "King Thundrake", "special": "Heaven’s Volt" }
         ]
       },
@@ -240,9 +240,9 @@
         ]
       },
       {
-        "base_name": "Snowkit",
+        "base_name": "Snowkip",
         "forms": [
-          { "rank": "Proto", "name": "Snowkit", "special": null },
+          { "rank": "Proto", "name": "Snowkip", "special": null },
           { "rank": "Starter", "name": "Frostuff", "special": "Icicle Claw" },
           { "rank": "Intermediate", "name": "Glacetail", "special": "Freeze Flash" },
           { "rank": "Apex", "name": "Cryosphinx", "special": "Frozen Mirage" },
@@ -251,4 +251,3 @@
       }
   ]
 
-  

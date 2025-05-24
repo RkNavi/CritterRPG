@@ -21,9 +21,8 @@ async function seedStatusEffects() {
     }
 
     console.log('🎉 All status effects seeded!');
-    process.exit(0);
   } catch (err) {
-    console.error('❌ Error seeding status effects:', err);
+    console.error('❌ Error seeding status effects:\n', err);
     process.exit(1);
   }
 }

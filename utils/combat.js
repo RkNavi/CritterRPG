@@ -53,42 +53,98 @@ async function startCombat(challengerId, challengedId, channel) {
   await channel.send(`🏆 **${winner.name} wins the battle!**`);
 }
 
+function generateBar(current, max, length = 10) {
+  if (max <= 0) max = 1; // Prevent division by zero or invalid max values
+  current = Math.max(0, Math.min(current, max)); // Clamp current to be between 0 and max
+
+  const filledLength = Math.round((current / max) * length);
+  const emptyLength = Math.max(0, length - filledLength); // Ensure emptyLength is non-negative
+  const healthBar = '❤️  ' + '█'.repeat(filledLength) + '░'.repeat(emptyLength); // Add heart emoji for health
+  return healthBar;
+}
+
+function generateEnergyBar(current, max, length = 10) {
+  if (max <= 0) max = 1; // Prevent division by zero or invalid max values
+  current = Math.max(0, Math.min(current, max)); // Clamp current to be between 0 and max
+
+  const filledLength = Math.round((current / max) * length);
+  const emptyLength = Math.max(0, length - filledLength); // Ensure emptyLength is non-negative
+  const energyBar = '⚡ ' + '█'.repeat(filledLength) + '░'.repeat(emptyLength); // Add thunderbolt emoji for energy
+  return energyBar;
+}
+
 async function takeTurn(attacker, defender, channel) {
   const move = await selectMove(attacker);
   const embed = new EmbedBuilder().setColor(0x00ff00);
 
   if (move.type === 'Attack') {
-    const accuracy = rollDice(20) + attacker.dex;
+    const baseAccuracyBonus = 5; // Add a base accuracy bonus to improve hit chances
+    const accuracy = rollDice(20) + attacker.dex + baseAccuracyBonus;
     const dodge = rollDice(20) + defender.spd;
 
-    if (accuracy >= dodge) {
-      const damage = Math.max(0, rollDice(12) + attacker.str - defender.end / 2);
-      defender.health -= damage;
+    console.log(`Attack Roll: Accuracy (${accuracy}) vs Dodge (${dodge})`);
 
-      embed.setTitle(`**${attacker.name}** attacks!`)
-        .setDescription(`It hits **${defender.name}** for \`${damage}\` damage!`);
+    if (accuracy >= dodge) {
+      const baseDamage = rollDice(12) + attacker.str;
+      const damageReduction = defender.guardValue || 0; // Only apply guard reduction if guard was used
+      let damage = baseDamage - damageReduction; // Calculate raw damage without base defense
+      damage = Math.max(0, damage); // Clamp damage to zero only if it is negative
+      const defenderHealthBefore = defender.health;
+      defender.health -= damage;
+      defender.guardValue = 0; // Reset guard value after applying it to ensure no stacking
+      const attackRollMessage = `🎲 Attack Roll: Accuracy (${accuracy}) vs Dodge (${dodge})`;
+      const reductionMessage = damageReduction > 0
+        ? `, but it is reduced by \`-${damageReduction}\` from **${defender.name}**'s guard! The attack only lands \`${damage}\` dmg!`
+        : ''; // No reduction message if no guard was used
+
+      const description = damageReduction > 0
+        ? `It would have hit **${defender.name}** for \`${baseDamage}\` damage, but it is reduced by \`-${damageReduction}\` from **${defender.name}**'s guard!! (It only hits for \`${damage}\` dmg)`
+        : `It hits **${defender.name}** for \`${damage}\` damage!`;
+
+      embed.setTitle(`**${attacker.name}** uses **${move.name || 'Attack'}**!`)
+        .setDescription(
+          `\n${attackRollMessage}\n` +
+          `${description}\n` +
+          `**${defender.name}**: ${generateBar(defender.health, defender.max_health)} ${defender.health}/${defender.max_health} HP (-${damage} dmg against ${defenderHealthBefore} hp)`
+        );
     } else {
-      embed.setTitle(`**${attacker.name}** attacks!`)
+      embed.setTitle(`**${attacker.name}** uses **${move.name || 'Attack'}**!`)
         .setDescription('But it misses!');
     }
   } else if (move.type === 'Guard') {
-    const guardValue = rollDice(12) + attacker.end;
+    const guardValue = rollDice(12) + (attacker.end / 2); // Adjusted guard value calculation
+    attacker.guardValue = guardValue; // Store guard value for the next attack
+
     embed.setTitle(`**${attacker.name}** guards!`)
-      .setDescription(`It reduces incoming damage by \`${guardValue}\` this turn.`);
+      .setDescription(
+        `It reduces incoming damage by \`${guardValue}\` against the next attack.\n` +
+        `**${attacker.name}**: ${generateBar(attacker.health, attacker.max_health)} ${attacker.health}/${attacker.max_health} HP`
+      );
   } else if (move.type === 'Special') {
     if (attacker.energy >= move.energy_cost) {
       attacker.energy -= move.energy_cost;
 
-      const accuracy = rollDice(20) + attacker.dex;
-      const dodge = rollDice(20) + defender.spd;
+      const accuracy = rollDice(20) + (attacker.dex / 2);
+      const dodge = rollDice(20) + (defender.spd / 2);
 
       if (accuracy >= dodge) {
         const baseDamage = move.base_damage + rollDice(move.dice_sides);
-        const damage = Math.max(0, baseDamage - defender.end / 2);
+        const damageReduction = defender.guardValue || 0; // Only apply guard reduction if guard was used
+        let damage = baseDamage - damageReduction; // Calculate raw damage
+        damage = Math.max(0, damage); // Clamp damage to zero only if it is negative
+        const defenderHealthBefore = defender.health;
         defender.health -= damage;
+        defender.guardValue = 0; // Reset guard value after applying it
+
+        const reductionMessage = damageReduction > 0
+          ? `It would have hit **${defender.name}** for \`${baseDamage}\` damage, but it is reduced by \`${damageReduction}\` from **${defender.name}**'s guard!! (It only hits for \`${damage}\` dmg)`
+          : `It hits **${defender.name}** for \`${damage}\` damage!`;
 
         embed.setTitle(`**${attacker.name}** uses **${move.name}**!`)
-          .setDescription(`It hits **${defender.name}** for \`${damage}\` damage!`);
+          .setDescription(
+            `${reductionMessage}\n` +
+            `**${defender.name}**: ${generateBar(defender.health, defender.max_health)} ${defender.health}/${defender.max_health} HP (-${damage} dmg against ${defenderHealthBefore} hp)`
+          );
 
         if (move.status_effect_id && rollDice(100) <= move.status_chance) {
           defender.current_status_effect = move.status_effect_id;
@@ -104,13 +160,24 @@ async function takeTurn(attacker, defender, channel) {
       embed.setTitle(`**${attacker.name}** tries to use **${move.name}**!`)
         .setDescription('But it doesn’t have enough energy!');
     }
+  } else {
+    embed.setTitle(`**${attacker.name}** is confused!`)
+      .setDescription('It does nothing this turn.');
   }
+
+  embed.addFields(
+    { name: `${attacker.name} Stats`, value: `HP: ${generateBar(attacker.health, attacker.max_health)} ${attacker.health}/${attacker.max_health}\nEnergy: ${generateEnergyBar(attacker.energy, 50)} ${attacker.energy}/50` },
+    { name: `${defender.name} Stats`, value: `HP: ${generateBar(defender.health, defender.max_health)} ${defender.health}/${defender.max_health}\nEnergy: ${generateEnergyBar(defender.energy, 50)} ${defender.energy}/50` }
+  );
 
   await channel.send({ embeds: [embed] });
 }
 
 async function selectMove(critter) {
-  const moves = ['Attack', 'Guard'];
+  const moves = [
+    { type: 'Attack' },
+    { type: 'Guard' }
+  ];
 
   // Fetch special moves from the database
   const specialMoves = await db.query(
@@ -124,7 +191,9 @@ async function selectMove(critter) {
     moves.push({ type: 'Special', ...move });
   }
 
-  return moves[Math.floor(Math.random() * moves.length)];
+  const selectedMove = moves[Math.floor(Math.random() * moves.length)];
+
+  return selectedMove;
 }
 
 async function applyStatusEffects(critter, channel) {
@@ -144,6 +213,7 @@ async function applyStatusEffects(critter, channel) {
     case 'Burn':
       const burnDamage = Math.floor(critter.max_health * 0.1);
       critter.health = Math.max(0, critter.health - burnDamage);
+
       embed.setTitle(`${critter.name} is Burned!`)
         .setDescription(`It takes ${burnDamage} damage over time.`);
       break;

@@ -25,7 +25,6 @@ async function seedSpecialMoves() {
     }
 
     console.log('✅ Special moves seeded successfully!');
-    process.exit();
   } catch (err) {
     console.error('❌ Error seeding special moves:', err);
     process.exit(1);
